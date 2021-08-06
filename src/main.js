@@ -447,7 +447,7 @@ const messages = {
     }
   },
   srb: {
-    menu: ["Početna", "DNP Printeri","Papir", "Pribor", "O nama", "Kontakt"],
+    menu: ["Početna", "DNP Printeri","Media", "Pribor", "O nama", "Kontakt"],
 
     // HOME
     home: {
