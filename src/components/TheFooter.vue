@@ -3,7 +3,7 @@
     <v-row style="color: rgba(255,255,255, 0.9); text-align: center;">
       <v-col cols="12" md="4">
         <h4>Informacije</h4>
-        <p>City Market d.o.o.</p>
+        <p>City Market d.o.o. Kruševac</p>
         <p>Aleksandra Fleminga 41</p>
         <p>37000 Kruševac</p>
         <p>Republika Srbija</p>
