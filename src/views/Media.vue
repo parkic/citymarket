@@ -8,11 +8,25 @@
         </div>
       </div>
     <div v-if="$route.name=='Media'">
-        <!-- v-if="$route.name == 'Media'" -->
       <div class="px-5" :class="$vuetify.breakpoint.smAndUp ? 'wrapper' : ''">
         <v-row>
+          <v-col cols="12" class="d-flex">
+            <v-spacer></v-spacer>
+            <div>
+              <!-- <div>Filter</div> -->
+              <v-select
+                :items="printers"
+                :label="$t('printers.title')"
+                color="rgb(236, 31, 37)"
+                item-color="red"
+                dense
+                @change="setMediaToShow"
+                v-model="selectedPrinter"
+              ></v-select>
+            </div>
+          </v-col>
           <v-col 
-            v-for="(media, idx) in $t('media.list')"
+            v-for="(media, idx) in mediaList"
             :key="idx"
             cols="12" sm="6" md='4' lg="3" 
           >
@@ -50,9 +64,6 @@
           </v-col>
         </v-row>
       </div>
-      <!-- <div v-else>
-        <router-view></router-view>
-      </div> -->
     </div>
     <div v-else :class="$vuetify.breakpoint.smAndUp ? 'wrapper' : ''">
       <router-view :key="$route.path"></router-view>
@@ -62,6 +73,32 @@
 
 <script>
 export default {
+  data(){
+    return {
+      // printers: [this.$i18n.locale == 'srb' ? 'Sva media' : "All media", "DS620", "DS820", "RX1HS", "QW410", "DS40"],
+      selectedPrinter: this.$i18n.locale == 'srb' ? 'Sva media' : "All media",
+      mediaList: this.$t('media.list')
+    }
+  },
+  computed: {
+    printers(){
+      return [this.$i18n.locale == 'srb' ? 'Sva media' : "All media", "DS620", "DS820", "RX1HS", "QW410", "DS40"]
+    }
+  },
+  methods: {
+    setMediaToShow(){
+      if(this.selectedPrinter == 'All media' || this.selectedPrinter == 'Sva media'){
+        this.mediaList = this.$t('media.list')
+        return
+      }
+        
+      this.mediaList = this.$t('media.list').filter(printer => {
+        if(this.selectedPrinter == printer.name[0].split(' ')[0]){
+          return printer
+        }
+      })
+    }
+  }
 }
 </script>
 

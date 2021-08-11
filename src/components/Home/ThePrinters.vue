@@ -3,10 +3,10 @@
     <h2 class="subtitle red--text">
       {{ $t("printers.title").toUpperCase() }}
     </h2>
-    <p>
+    <!-- <p>
       <b>Ovde bi valjalo da ide neki tekst, zbog celokupnog vizuelnog izgleda.</b>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt tenetur necessitatibus molestias laboriosam ipsum, aut vero similique facilis asperiores, impedit magni, ut nesciunt architecto et laborum magnam illo atque adipisci!
-    </p>
+    </p> -->
     <carousel 
       :perPage="slidesPerPage" 
       navigationEnabled

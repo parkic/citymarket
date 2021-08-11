@@ -78,7 +78,7 @@
             <v-icon left color="white">mdi-phone</v-icon>
             <span v-if="$vuetify.breakpoint.mdAndUp" style="color: grey">{{ $t('contact.contactUs') }}:</span>
             <a :href="'tel:+381646162151'" >
-              &nbsp;<span id="topHeadingPhoneNumber" style=" color: rgba(255,255,255,0.9)">064/61-62-151</span>
+              &nbsp;<span id="topHeadingPhoneNumber" style=" color: rgba(255,255,255,0.9)">+381 64/61-62-151</span>
             </a>
           </v-col>
 

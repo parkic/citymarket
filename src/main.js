@@ -35,7 +35,7 @@ const messages = {
     about: {
       title: "About us",
       text: "Preduzeće Fotolusio doo je osnovano 30.septembra 2013.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
-      info: ["Privredno društvo za trgovinu i usluge", "City Market d.o.o.", "Aleksandra Fleminga 41.", "37000 Kruševac", "Serbia"],
+      info: ["Privredno društvo za trgovinu i usluge", "City Market d.o.o. Krusevac", "Aleksandra Fleminga 41.", "37000 Krusevac", "Republic of Serbia"],
     },
 
     // CONTACT
@@ -54,6 +54,10 @@ const messages = {
       },
       workTime: ["Working hours", "Monday - Sunday"],
       phone: "Phone",
+      mobile: "Mobile",
+      street: "Aleksandra Fleminga 41",
+      city: "37000 Krusevac",
+      country: "Republic of Serbia"
     },
 
     // DNP Printers
@@ -469,7 +473,7 @@ const messages = {
     about: {
       title: "O nama",
       text: "Preduzeće Fotolusio doo je osnovano 30.septembra 2013.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
-      info: ["Privredno društvo za trgovinu i usluge", "City Market d.o.o.", "Aleksandra Fleminga 41.", "37000 Kruševac", "Republika Srbija"],
+      info: ["Privredno društvo za trgovinu i usluge", "City Market d.o.o. Kruševac", "Aleksandra Fleminga 41.", "37000 Kruševac", "Republika Srbija"],
     },
 
     // CONTACT
@@ -487,7 +491,11 @@ const messages = {
         send: "Pošaljite poruku",
       },
       workTime: ["Radno vreme", "Ponedeljak - Nedelja"],
-      phone: "Telefon",
+      phone: "Fiksni tel",
+      mobile: "Telefon",
+      street: "Aleksandra Fleminga 41",
+      city: "37000 Kruševac",
+      country: "Republika Srbija"
     },
 
     // DNP printeri
@@ -503,8 +511,8 @@ const messages = {
           path: 'DS620',
           title: 'DNP DS620',
           reference: '212620',
-          condition: 'New product',
-          conditionPlus: 'The new DS620 allows you to offer even more photo formats, including the popular  formats from the same media (e.g. 15x20 and 15x10, and even photo strips in 5x15cm)',
+          condition: 'Nov proizvod',
+          conditionPlus: 'DS620 Vam omogućava da ponudite još više formata fotografija, uključujući i popularne formate. Imate priliku da odštampate dve slike 10x15cm ili jednu sliku 15x20cm. Najprodavaniji profesionalni foto štampač u Evropi.',
     
           info: {
             generalFeatures: '',
@@ -632,7 +640,7 @@ const messages = {
     
     // Media
     media: {
-      title: 'Papir',
+      title: 'Media',
       list: [
         {
           name: ['DS620 10X15CM', '(4X6")'],

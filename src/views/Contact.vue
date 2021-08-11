@@ -25,9 +25,9 @@
             >
               <div>
                 <v-icon color="red" large>mdi-map-marker</v-icon>
-                <p class="mb-0 mt-2">Aleksandra Fleminga 41,</p>
-                <p class="mb-0">37000 Kruševac,</p>
-                <p>Republika Srbija</p>
+                <p class="mb-0 mt-2">{{ $t("contact.street") }},</p>
+                <p class="mb-0">{{ $t("contact.city") }},</p>
+                <p>{{ $t("contact.country") }}</p>
               </div>
             </v-card>
           </v-col>
@@ -49,9 +49,9 @@
 
           <v-col cols="12" class="text-center px-0 pb-0">
               <p class="mb-0">
-                {{ $t("contact.phone") }}:
+                {{ $t("contact.mobile") }}:
                 <a :href="'tel:+381646162151'">
-                  <span class="primary--text">064/61-62-151</span>
+                  <span class="primary--text">+381 64/61-62-151</span>
                 </a>
               </p>
           </v-col>
@@ -60,7 +60,7 @@
               <p class="mb-0">
                 {{ $t("contact.phone") }}:
                 <a :href="'tel:+38137492902'">
-                  <span class="primary--text">037/492-902</span>
+                  <span class="primary--text">+381 37/492-902</span>
                 </a>
               </p>
           </v-col>

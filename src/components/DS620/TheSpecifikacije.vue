@@ -1,5 +1,12 @@
 <template>
-  <div>
+  <div v-if="$i18n.locale == 'srb'">
+    <v-img src="@/assets/DS620/specif_srb.jpg"></v-img>
+  </div>
+  <div v-else>
+    <v-img src="@/assets/DS620/specif_eng.jpg"></v-img>
+  </div>
+  <!-- Old version -->
+  <!-- <div>
     <h3>PRODUCT NAME</h3>
     <p>DP-DS620</p>
 
@@ -130,7 +137,7 @@
 <br />
       Windows Vista, Windows 7, Windows 8 and Windows XP are trademarks or registered trademarks of Microsoft, Inc. All other trademarks are property of their respective owners.<br />
     </p>
-  </div>
+  </div> -->
 </template>
 
 <script>
