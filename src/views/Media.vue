@@ -32,6 +32,7 @@
           >
             <v-card :data-aos="idx%2==0 ? 'flip-right' : 'flip-left'" data-aos-duration="1500" class="mx-auto" color="rgba(236,239,241,0.35)" min-height="410">
               <v-img
+                @click="openMediaWindow(media.path)"
                 style="background-color: white"
                 contain
                 :src="require(`@/assets/Media/${media.image}`)"
@@ -86,6 +87,11 @@ export default {
     }
   },
   methods: {
+    openMediaWindow(routeParam){
+      if(this.$vuetify.breakpoint.smAndDown){
+        this.$router.push({ name: 'MediaItem', params: {name: routeParam} })
+      }
+    },
     setMediaToShow(){
       if(this.selectedPrinter == 'All media' || this.selectedPrinter == 'Sva media'){
         this.mediaList = this.$t('media.list')

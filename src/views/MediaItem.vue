@@ -15,25 +15,30 @@
             <h2 data-aos="fade-down" data-aos-duration="1000"  class="my-3 red--text" style="font-size: 1.7em">
               {{media.name[0]}} {{media.name[1]}}
             </h2>
-            <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" class="mt-3 mb-5"><b>Photo paper</b></h3>
-            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400"><b>Condition:</b> New product</p>
+            <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" class="mt-3 mb-5">
+              <b>{{ $i18n.locale == 'srb' ? 'Foto papir' : "Photo paper" }}</b>
+            </h3>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
+              <b>{{ $i18n.locale == 'srb' ? 'Stanje' : "Condition" }}:</b> 
+              {{ $i18n.locale == 'srb' ? 'Nov proizvod' : "New product" }}
+            </p>
 
             <!-- TEMP -->
             <div>
               <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
-                <b>Size: </b>
+                <b>{{ $i18n.locale == 'srb' ? 'Veličina' : "Size" }}: </b>
                 {{media.size}}
               </p>
               <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800">
-                <b>Print per roll: </b>
+                <b>{{ $i18n.locale == 'srb' ? 'Broj slika po rolni' : "Print per roll" }}: </b>
                 {{media.printsPerRoll}}
               </p>
               <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
-                <b>Rolls per case: </b>
+                <b>{{ $i18n.locale == 'srb' ? 'Rolne po kutiji' : "Rolls per case" }}: </b>
                 {{media.rollsPerCase}}
               </p>
               <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">
-                <b>Total prints: </b>
+                <b>{{ $i18n.locale == 'srb' ? 'Ukupno slika' : "Total prints" }}: </b>
                 {{media.totalPrints}}
               </p>
             </div>

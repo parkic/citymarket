@@ -18,10 +18,10 @@
             </h2>
 
             <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
-              <b>Reference: </b> {{accessorie.reference}}
+              <b>{{ $i18n.locale == 'srb' ? 'Šifra proizvoda' : "Product code" }}: </b> {{accessorie.reference}}
             </p>
             <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
-              <b>Condition:</b> {{accessorie.condition}}
+              <b>{{ $i18n.locale == 'srb' ? 'Stanje' : "Condition" }}:</b> {{accessorie.condition}}
             </p>
             <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
               {{accessorie.info}}
