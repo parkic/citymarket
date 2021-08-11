@@ -20,13 +20,13 @@
         <p >
           {{ $t("contact.phone") }}:
           <a :href="'tel:+381646162151'">
-            <span class="red--text text--lighten-2">064/61-62-151</span>
+            <span class="red--text text--lighten-2">+381 64/61-62-151</span>
           </a>
         </p>
         <p>
           {{ $t("contact.phone") }}:
           <a :href="'tel:+38137492902'">
-            <span class="red--text text--lighten-2">037/492-902</span>
+            <span class="red--text text--lighten-2">+381 37/492-902</span>
           </a>
         </p>
         <p>Email: 
