@@ -27,7 +27,7 @@
             <h3 class="my-3">{{$i18n.locale == 'srb' ? '4.5-INČA ULTRA-KOMPAKTAN I PRENOSAN ŠTAMPAČ' : "4.5-INCH ULTRA-COMPACT & MOBILE PRINTER"}}</h3>
             <p><b>{{$i18n.locale == 'srb' ? 'Šifra proizvoda' : "Product code"}}:</b> {{$t('printers.list[3].reference')}}</p>
             <p><b>{{$i18n.locale == 'srb' ? 'Stanje' : "Condition"}}:</b> {{$t('printers.list[3].condition')}}</p>
-            <p class="my-3">20% Faster Print Speed than RX1</p>
+            <p class="my-3">{{$t('printers.list[3].conditionPlus')}}</p>
           </div>
         </v-col>
       </v-row>

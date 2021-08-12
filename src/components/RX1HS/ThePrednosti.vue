@@ -14,8 +14,8 @@
         Sa najvećim kapacitetom štampe u svojoj klasi (700 slika formata 4x6), izdržljivim dizajnom i novim većim brzinama štampanja, printer DS-RX1HS će odgovoriti svim vašim zahtevima u zavisnosti gde je potrebno odraditi slike, bilo to u radnji ili na terenu. Težak je samo 14 kg.
       </p>
 
-      <h4>Upotrebljiv za foto-kabine</h4>
-      <p>Idealan je za foto-kabine, foto trake u formatu 2x6 inča (5x15cm). Ponudite zabavne fotografije ili fotografije za pasoš u ovom popularnom rasporedu! DS-RX1HS štampač je veoma mali, manji od jednog metra visok (11” H x 12.6” V), i stane u uske prostore.</p>
+      <!-- <h4>Upotrebljiv za foto-kabine</h4>
+      <p>Idealan je za foto-kabine, foto trake u formatu 2x6 inča (5x15cm). Ponudite zabavne fotografije ili fotografije za pasoš u ovom popularnom rasporedu! DS-RX1HS štampač je veoma mali, manji od jednog metra visok (11” H x 12.6” V), i stane u uske prostore.</p> -->
 
       <h4>Ekološki</h4>
       <p>DS-RX1HS materijali za štampanje fotografija koriste manje plastike nego ikada i dolaze u ambalaži koja se može reciklirati, dok su ribon trake napravljene od recikliranih materijala. I potrošnja energije i medijski otpad su dalje optimizovani. Кoristi 25% manje energije, u režimima najveće potrošnje, mirovanja i ostalim režimima rada. <br />
@@ -37,9 +37,9 @@
       <p>With the largest print capacity in its class (700 4x6’ prints) and rugged, durable design, and new higher speed output, the DS-RX1HS answers all the requirements for outstanding performance for local or remote event photo printing venues.  Aimed at portable Event Photography use, it weighs only 14 kg.
       </p>
 
-      <h4>Photo booth use</h4>
+      <!-- <h4>Photo booth use</h4>
       <p>For ID photo booths, photo strips in the format 2x6 inch (5x15cm) is ideal. Offer fun or passport photos in this popular layout! The DS-RX1HS printer is very small, less than one foot tall (11”Hx12.6”W), and will fit in tight spaces.
-      </p>
+      </p> -->
 
       <h4>Environmentally friendly</h4>
       <p>The DS-RX1HS photo printing materials use less plastic than ever and come in recyclable packaging, while the ribbon spools are made of recycled materials. Both energy consumption and media waste were further optimized. It utilizes 25% less power, in peak, idle, & running modes.

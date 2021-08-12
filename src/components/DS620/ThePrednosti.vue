@@ -2,7 +2,7 @@
   <div>
     <div v-if="$i18n.locale == 'srb'">
       <h4>Isplativosti</h4>
-      <p>Režim mirovanja osigurava malu potrošnju energije (&lt;0.5W), dok se režimom premotavanja osigurava da se potrošni materijali učinkovito troše. Ušteda novca, stvaranje vrednosti!</p>
+      <p>Izuzetna mala potrošnja u stanju mirovanja (&lt;0.5W), dok mu rewind režim omogućava da se potrošni materijali učinkovito troše. Printer istovremeno štedi novac i štampa fotografije ekstra kvaliteta!</p>
 
       <h4>Pouzdanost</h4>
       <p>Mnogo hiljada DS štampača pouzdano radi na terenu. Printer DS620 ima poboljšani termalni vek trajanja glave. Uvereni smo da ćete uživati u izuzetno izdržljivom proizvodu. Evo dokaza: DNP PIE nudi 2 godine garancije!</p>

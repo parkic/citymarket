@@ -137,6 +137,7 @@ const messages = {
           title: 'DNP QW410',
           reference: '212410',
           condition: 'New product',
+          conditionPlus: 'The QW410 printer is the most compact, lightest and first 4.5-inch model in DNP’s printer lineup. The possibility to work with an external battery makes it portable. Easy to handle and transport, this space-saving and nomadic new printer is specifically attractive for System Integrators, Event players and ID market. Small in size, big on features!',
           info: {
             generalFeatures: 'The QW410 printer is the most compact, lightest and first 4.5-inch model in DNP’s printer lineup. Offering the possibility to work with an external battery.',
             photoSize:[
@@ -598,6 +599,7 @@ const messages = {
           title: 'DNP QW410',
           reference: '212410',
           condition: 'Nov proizvod',
+          conditionPlus: 'Štampač QW410 je najkompaktniji, najlakši i prvi 4,5-inčni model u DNP-ovoj liniji štampača. Mogućnost rada sa eksternom baterijom čini ga prenosivim. Jednostavan za rukovanje i transport, ovaj novi, lako prenosivi, štampač koji štedi prostor posebno je atraktivan za integratore sistema, za male događaje, za štampanje ID fotografija. Lako ugradiv u kabine za selfije i kioske. Male veličine, veliki po karakteristikama!',
           info: {
             generalFeatures: 'The QW410 printer is the most compact, lightest and first 4.5-inch model in DNP’s printer lineup. Offering the possibility to work with an external battery.',
             photoSize:[
