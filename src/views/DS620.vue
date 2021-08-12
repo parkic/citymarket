@@ -101,12 +101,8 @@
 <script>
 import ThePrednosti from "@/components/DS620/ThePrednosti.vue"
 import TheSpecifikacije from "@/components/DS620/TheSpecifikacije.vue"
-// import { VueperSlides, VueperSlide } from 'vueperslides'
-// import 'vueperslides/dist/vueperslides.css'
 export default {
   components: {
-    // VueperSlides, 
-    // VueperSlide, 
     ThePrednosti,
     TheSpecifikacije
   },

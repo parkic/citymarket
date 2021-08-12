@@ -58,7 +58,7 @@
             :key="i"
             :value="'tab-' + i"
           >
-            <v-card flat style="background-color: rgba(0,0,0,0.05)">
+            <v-card flat :style="{backgroundColor: $i18n.locale == 'srb' ? '#eeeeee': '#e9e9eb'}">
               <v-card-text class="black--text px-10">
                 <ThePrednosti v-if="tab == 'tab-1'" />
                 <TheSpecifikacije v-if="tab == 'tab-2'" />
@@ -71,11 +71,10 @@
       <!-- BROSURA -->
       <v-row class="mx-4">
         <v-col class="mt-10">
-          <h1>PROMENI LOKACIJU brosura i dodaj englesku brosuru</h1>
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
-            href="http://localhost:8080/QW410_brochure_230320.pdf"
+            href="http://localhost:8080/QW410_brochure_230320_srb.pdf"
             download
             color="red"
           >
@@ -85,7 +84,7 @@
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
-            href="http://localhost:8080/DNP_brochure_DS620_eng.pdf"
+            href="http://localhost:8080/QW410_brochure_230320_eng.pdf"
             download
             color="red"
           >

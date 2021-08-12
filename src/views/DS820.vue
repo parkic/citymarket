@@ -27,7 +27,7 @@
             <h3 class="my-3">8-INČA FOTO ŠTAMPAČ</h3>
             <p><b>{{$i18n.locale == 'srb' ? 'Šifra proizvoda' : "Product code"}}:</b> {{$t('printers.list[1].reference')}}</p>
             <p><b>{{$i18n.locale == 'srb' ? 'Stanje' : "Condition"}}:</b> {{$t('printers.list[1].condition')}}</p>
-            <p class="my-3">{{$t('printers.list[0].conditionPlus')}}</p>
+            <p class="my-3">{{$t('printers.list[1].conditionPlus')}}</p>
           </div>
         </v-col>
       </v-row>
@@ -59,7 +59,7 @@
             :key="i"
             :value="'tab-' + i"
           >
-            <v-card flat style="background-color: rgba(0,0,0,0.05)">
+            <v-card flat style="background-color: #eee">
               <v-card-text class="black--text px-10">
                 <ThePrednosti v-if="tab == 'tab-1'" />
                 <TheSpecifikacije v-if="tab == 'tab-2'" />
@@ -73,11 +73,10 @@
       <!-- BROSURA -->
       <v-row class="mx-4">
         <v-col class="mt-10">
-          <h1>PROMENI LOKACIJU brosura i dodaj englesku brosuru</h1>
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
-            href="http://localhost:8080/DNP_brochure_DS820.pdf"
+            href="http://localhost:8080/DNP_brochure_DS820_srb.pdf"
             download
             color="red"
           >
@@ -87,7 +86,7 @@
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
-            href="http://localhost:8080/DNP_brochure_DS620_eng.pdf"
+            href="http://localhost:8080/DNP_brochure_DS820_eng.pdf"
             download
             color="red"
           >
