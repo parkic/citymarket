@@ -99,7 +99,7 @@ const messages = {
           title: 'DNP DS820',
           reference: '212820',
           condition: 'New product',
-          conditionPlus:'',
+          conditionPlus:'Offering two types of consumables and meeting the demands of an extended choice of photo formats up to 8x32’’ panorama (*via SDK), this state-of-the-art printer boosts a great image quality that perfectly fits the professional and event photo studio needs.',
           info: {
             generalFeatures: '',
             printModes: '',
@@ -203,15 +203,15 @@ const messages = {
     media: {
       title: 'Media',
       list: [
-        {
-          name: ['DS620 10X15CM', '(4X6")'],
-          path: 'ds620-10x15cm(4x6)',
-          image: 'DS6204X6.jpg',
-          size: '10x15cm  4"x 6"',
-          printsPerRoll: '400',
-          rollsPerCase: '2',
-          totalPrints: '800'
-        },
+        // {
+        //   name: ['DS620 10X15CM', '(4X6")'],
+        //   path: 'ds620-10x15cm(4x6)',
+        //   image: 'DS6204X6.jpg',
+        //   size: '10x15cm  4"x 6"',
+        //   printsPerRoll: '400',
+        //   rollsPerCase: '2',
+        //   totalPrints: '800'
+        // },
         {
           name: ['DS620 13X18CM', '(5X7")'],
           path: 'ds620-13x18cm(5x7)',
@@ -239,15 +239,15 @@ const messages = {
           rollsPerCase: '1',
           totalPrints: '200'
         },
-        {
-          name: ['DS620 15X23CM', '(6X9")'],
-          path: 'ds620-15x23cm(6x9)',
-          image: 'DS6206X9.jpg',
-          size: '15x20cm  6"x 9"',
-          printsPerRoll: '180',
-          rollsPerCase: '2',
-          totalPrints: '360'
-        },
+        // {
+        //   name: ['DS620 15X23CM', '(6X9")'],
+        //   path: 'ds620-15x23cm(6x9)',
+        //   image: 'DS6206X9.jpg',
+        //   size: '15x20cm  6"x 9"',
+        //   printsPerRoll: '180',
+        //   rollsPerCase: '2',
+        //   totalPrints: '360'
+        // },
         {
           name: ['DS820 20X25CM', '(8X10")PP'],
           path: 'ds820-20x25cm(8x10)-pp',
@@ -365,15 +365,15 @@ const messages = {
           rollsPerCase: '2',
           totalPrints: '400'
         },
-        {
-          name: ['DS40 15X23CM', '(6x9)'],
-          path: 'ds40-15x23cm-(6x9)',
-          image: 'DS40_6x9v2.png',
-          size: '15x23cm  6"x 9"',
-          printsPerRoll: '180',
-          rollsPerCase: '2',
-          totalPrints: '360'
-        },
+        // {
+        //   name: ['DS40 15X23CM', '(6x9)'],
+        //   path: 'ds40-15x23cm-(6x9)',
+        //   image: 'DS40_6x9v2.png',
+        //   size: '15x23cm  6"x 9"',
+        //   printsPerRoll: '180',
+        //   rollsPerCase: '2',
+        //   totalPrints: '360'
+        // },
         {
           name: ['QW410 10X15CM', '(4X6") PD'],
           path: 'qW410-10x15cm-(4X6)-pd',
@@ -392,24 +392,24 @@ const messages = {
           rollsPerCase: '2',
           totalPrints: '300'
         },
-        {
-          name: ['QW410 11X20CM', '(4.5X8") PD'],
-          path: 'qW410-11x20cm-(4.5X8)-pd',
-          image: 'QW4104x6SD.jpg',
-          size: '10x15cm 4x6"',
-          printsPerRoll: '110',
-          rollsPerCase: '2',
-          totalPrints: '220'
-        },
-        {
-          name: ['QW410 11X20CM', '(4.5X8") SD'],
-          path: 'qW410-11x20cm-(4.5X8)-sd',
-          image: 'QW4104.5x8SD.jpg',
-          size: '10x15cm 4x6"',
-          printsPerRoll: '110',
-          rollsPerCase: '2',
-          totalPrints: '220'
-        }
+        // {
+        //   name: ['QW410 11X20CM', '(4.5X8") PD'],
+        //   path: 'qW410-11x20cm-(4.5X8)-pd',
+        //   image: 'QW4104x6SD.jpg',
+        //   size: '10x15cm 4x6"',
+        //   printsPerRoll: '110',
+        //   rollsPerCase: '2',
+        //   totalPrints: '220'
+        // },
+        // {
+        //   name: ['QW410 11X20CM', '(4.5X8") SD'],
+        //   path: 'qW410-11x20cm-(4.5X8)-sd',
+        //   image: 'QW4104.5x8SD.jpg',
+        //   size: '10x15cm 4x6"',
+        //   printsPerRoll: '110',
+        //   rollsPerCase: '2',
+        //   totalPrints: '220'
+        // }
       ] 
     },
 
@@ -542,7 +542,7 @@ const messages = {
           title: 'DNP DS820',
           reference: '212820',
           condition: 'Nov proizvod',
-          conditionPlus:'',
+          conditionPlus:"Nudeći dva tipa potrošnog materijala i zadovoljavajući zahteve proširenog izbora formata fotografija do 8k32 '' panorama (* preko SDK), ovaj vrhunski štampač povećava odličan kvalitet slike koji savršeno pristaje profesionalnoj fotografiji i fotografiji događaja. potrebe studija",
           info: {
             generalFeatures: '',
             printModes: '',
@@ -646,15 +646,15 @@ const messages = {
     media: {
       title: 'Media',
       list: [
-        {
-          name: ['DS620 10X15CM', '(4X6")'],
-          path: 'ds620-10x15cm(4x6)',
-          image: 'DS6204X6.jpg',
-          size: '10x15cm  4"x 6"',
-          printsPerRoll: '400',
-          rollsPerCase: '2',
-          totalPrints: '800'
-        },
+        // {
+        //   name: ['DS620 10X15CM', '(4X6")'],
+        //   path: 'ds620-10x15cm(4x6)',
+        //   image: 'DS6204X6.jpg',
+        //   size: '10x15cm  4"x 6"',
+        //   printsPerRoll: '400',
+        //   rollsPerCase: '2',
+        //   totalPrints: '800'
+        // },
         {
           name: ['DS620 13X18CM', '(5X7")'],
           path: 'ds620-13x18cm(5x7)',
@@ -682,15 +682,15 @@ const messages = {
           rollsPerCase: '1',
           totalPrints: '200'
         },
-        {
-          name: ['DS620 15X23CM', '(6X9")'],
-          path: 'ds620-15x23cm(6x9)',
-          image: 'DS6206X9.jpg',
-          size: '15x20cm  6"x 9"',
-          printsPerRoll: '180',
-          rollsPerCase: '2',
-          totalPrints: '360'
-        },
+        // {
+        //   name: ['DS620 15X23CM', '(6X9")'],
+        //   path: 'ds620-15x23cm(6x9)',
+        //   image: 'DS6206X9.jpg',
+        //   size: '15x20cm  6"x 9"',
+        //   printsPerRoll: '180',
+        //   rollsPerCase: '2',
+        //   totalPrints: '360'
+        // },
         {
           name: ['DS820 20X25CM', '(8X10")PP'],
           path: 'ds820-20x25cm(8x10)-pp',
@@ -808,15 +808,15 @@ const messages = {
           rollsPerCase: '2',
           totalPrints: '400'
         },
-        {
-          name: ['DS40 15X23CM', '(6x9)'],
-          path: 'ds40-15x23cm-(6x9)',
-          image: 'DS40_6x9v2.png',
-          size: '15x23cm  6"x 9"',
-          printsPerRoll: '180',
-          rollsPerCase: '2',
-          totalPrints: '360'
-        },
+        // {
+        //   name: ['DS40 15X23CM', '(6x9)'],
+        //   path: 'ds40-15x23cm-(6x9)',
+        //   image: 'DS40_6x9v2.png',
+        //   size: '15x23cm  6"x 9"',
+        //   printsPerRoll: '180',
+        //   rollsPerCase: '2',
+        //   totalPrints: '360'
+        // },
         {
           name: ['QW410 10X15CM', '(4X6") PD'],
           path: 'qW410-10x15cm-(4X6)-pd',
@@ -835,24 +835,24 @@ const messages = {
           rollsPerCase: '2',
           totalPrints: '300'
         },
-        {
-          name: ['QW410 11X20CM', '(4.5X8") PD'],
-          path: 'qW410-11x20cm-(4.5X8)-pd',
-          image: 'QW4104x6SD.jpg',
-          size: '10x15cm 4x6"',
-          printsPerRoll: '110',
-          rollsPerCase: '2',
-          totalPrints: '220'
-        },
-        {
-          name: ['QW410 11X20CM', '(4.5X8") SD'],
-          path: 'qW410-11x20cm-(4.5X8)-sd',
-          image: 'QW4104.5x8SD.jpg',
-          size: '10x15cm 4x6"',
-          printsPerRoll: '110',
-          rollsPerCase: '2',
-          totalPrints: '220'
-        }
+        // {
+        //   name: ['QW410 11X20CM', '(4.5X8") PD'],
+        //   path: 'qW410-11x20cm-(4.5X8)-pd',
+        //   image: 'QW4104x6SD.jpg',
+        //   size: '10x15cm 4x6"',
+        //   printsPerRoll: '110',
+        //   rollsPerCase: '2',
+        //   totalPrints: '220'
+        // },
+        // {
+        //   name: ['QW410 11X20CM', '(4.5X8") SD'],
+        //   path: 'qW410-11x20cm-(4.5X8)-sd',
+        //   image: 'QW4104.5x8SD.jpg',
+        //   size: '10x15cm 4x6"',
+        //   printsPerRoll: '110',
+        //   rollsPerCase: '2',
+        //   totalPrints: '220'
+        // }
       ] 
     },
 

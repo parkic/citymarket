@@ -27,6 +27,7 @@
             <h3 class="my-3">8-INČA FOTO ŠTAMPAČ</h3>
             <p><b>{{$i18n.locale == 'srb' ? 'Šifra proizvoda' : "Product code"}}:</b> {{$t('printers.list[1].reference')}}</p>
             <p><b>{{$i18n.locale == 'srb' ? 'Stanje' : "Condition"}}:</b> {{$t('printers.list[1].condition')}}</p>
+            <p class="my-3">{{$t('printers.list[0].conditionPlus')}}</p>
           </div>
         </v-col>
       </v-row>
