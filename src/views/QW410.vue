@@ -60,7 +60,7 @@
             :value="'tab-' + i"
           >
             <v-card flat :style="{backgroundColor: $i18n.locale == 'srb' ? '#eeeeee': '#e9e9eb'}">
-              <v-card-text class="black--text px-10">
+              <v-card-text class="black--text pa-0">
                 <ThePrednosti v-if="tab == 'tab-1'" />
                 <TheSpecifikacije v-if="tab == 'tab-2'" />
               </v-card-text>

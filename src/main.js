@@ -597,7 +597,7 @@ const messages = {
           path: 'QW410',
           title: 'DNP QW410',
           reference: '212410',
-          condition: 'New product',
+          condition: 'Nov proizvod',
           info: {
             generalFeatures: 'The QW410 printer is the most compact, lightest and first 4.5-inch model in DNP’s printer lineup. Offering the possibility to work with an external battery.',
             photoSize:[
