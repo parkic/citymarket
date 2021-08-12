@@ -20,6 +20,7 @@
               <v-img
                 style="background-color: white"
                 contain
+                @click="openMediaWindow(item.path)"
                 :src="require(`@/assets/Accessories/${item.image}`)"
                 height="200px"
               ></v-img>
@@ -60,6 +61,13 @@
 
 <script>
 export default {
+  methods: {
+    openMediaWindow(routeParam){
+      if(this.$vuetify.breakpoint.smAndDown){
+        this.$router.push({ name: 'AccessoriesItem', params: {name: routeParam} })
+      }
+    },
+  }
 }
 </script>
 

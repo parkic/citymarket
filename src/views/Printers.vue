@@ -18,6 +18,7 @@
           <v-card :data-aos="idx%2==0 ? 'flip-right' : 'flip-left'" data-aos-duration="1500" class="mx-auto" >
             <v-img
               contain
+              @click="openMediaWindow(printer.path)"
               :src="require(`@/assets/printers/${printersImages[idx]}.jpg`)"
               height="200px"
             ></v-img>
@@ -63,7 +64,14 @@ export default {
       "QW410",
       "ds40",    
     ]
-  })
+  }),
+  methods: {
+    openMediaWindow(routeParam){
+      if(this.$vuetify.breakpoint.smAndDown){
+        this.$router.push({ name: routeParam })
+      }
+    },
+  }
 }
 </script>
 
