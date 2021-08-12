@@ -10,7 +10,7 @@
         * Štampano sa režimom velike brzine na sjajnoj završnoj obradi. Broj protoka se može promeniti u zavisnosti od podataka o slici, sobne temperature i svih ostalih okruženja.
         Кompaktan, ali visok kapacitet štampanja <br />
       </p>
-      <h4 style="color:red">OVO treba da se prevede: Compact yet high print capacity</h4>
+      <h4>Veliki kapacitet štampe</h4>
       <p>
         Sa najvećim kapacitetom štampe u svojoj klasi (otisci od 700 4x6) i robusnim, izdržljivim dizajnom i novim izlazom veće brzine, DS-RКS1HS odgovara svim zahtevima za izvanredne performanse za lokalna ili udaljena mesta za štampanje fotografija događaja. Namenjen za upotrebu portala Event Photographi, težak je samo 14 kg.
       </p>

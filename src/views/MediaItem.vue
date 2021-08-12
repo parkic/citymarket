@@ -19,25 +19,29 @@
               <b>{{ $i18n.locale == 'srb' ? 'Foto papir' : "Photo paper" }}</b>
             </h3>
             <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
+              <b>{{ $i18n.locale == 'srb' ? 'Šifra proizvoda' : "Product code" }}:</b> 
+              {{media.reference}}
+            </p>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
               <b>{{ $i18n.locale == 'srb' ? 'Stanje' : "Condition" }}:</b> 
               {{ $i18n.locale == 'srb' ? 'Nov proizvod' : "New product" }}
             </p>
 
             <!-- TEMP -->
             <div>
-              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
+              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800">
                 <b>{{ $i18n.locale == 'srb' ? 'Veličina' : "Size" }}: </b>
                 {{media.size}}
               </p>
-              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800">
+              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
                 <b>{{ $i18n.locale == 'srb' ? 'Broj slika po rolni' : "Print per roll" }}: </b>
                 {{media.printsPerRoll}}
               </p>
-              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">
                 <b>{{ $i18n.locale == 'srb' ? 'Rolne po kutiji' : "Rolls per case" }}: </b>
                 {{media.rollsPerCase}}
               </p>
-              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">
+              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1400">
                 <b>{{ $i18n.locale == 'srb' ? 'Ukupno slika' : "Total prints" }}: </b>
                 {{media.totalPrints}}
               </p>
