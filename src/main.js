@@ -127,6 +127,7 @@ const messages = {
           title: 'DNP DS-RX1HS',
           reference: '123456',
           condition: 'New product',
+          conditionPlus: '20% Faster Print Speed than RX1'
           
         },
         // QW410
@@ -163,6 +164,7 @@ const messages = {
           path: 'DS40',
           reference: '212040',
           condition: 'New product',
+          conditionPlus: 'The preferred photo printer of leading system integrators and photo professionals.',
           title: 'DNP DS40',
           info: {
             printMethod: 'Dye Sublimation Thermal Transfer',
@@ -539,7 +541,7 @@ const messages = {
           path: 'DS820',
           title: 'DNP DS820',
           reference: '212820',
-          condition: 'New product',
+          condition: 'Nov proizvod',
           conditionPlus:'',
           info: {
             generalFeatures: '',
@@ -567,7 +569,8 @@ const messages = {
           path: 'RX1HS',
           title: 'DNP DS-RX1HS',
           reference: '123456',
-          condition: 'New product',
+          condition: 'Nov proizvod',
+          conditionPlus: '20% Brža brzina štampe nego kod RX1'
           
         },
         // QW410
@@ -603,7 +606,8 @@ const messages = {
           name: 'DNP Printer DS40',
           path: 'DS40',
           reference: '212040',
-          condition: 'New product',
+          condition: 'Nov proizvod',
+          conditionPlus: 'Poželjan foto štampač vodećih sistem integratora i profesionalaca za fotografije.',
           title: 'DNP DS40',
           info: {
             printMethod: 'Dye Sublimation Thermal Transfer',
@@ -857,36 +861,36 @@ const messages = {
       title: "Pribor",
       list: [
         {
-          name: 'RIBBON CASSETTE DS620',
+          name: 'Kaseta za ribon za printer DS620',
           path: 'ribbon-cassete-ds620',
           image: '89-thickbox_default.jpg',
           reference: '212623',
-          condition: 'New product',
-          info: 'Ink ribbon cassette for use with DS620 printers'
+          condition: 'Nov proizvod',
+          info: 'Kaseta za ribon za printer DS620'
         },
         {
-          name: 'Paper Tray DNP DS620 10х15сm',
+          name: 'Držač papira za DNP DS620 10х15сm',
           path: 'paper-tray-dnp-ds620-10х15сm',
           image: '90-thickbox_default.jpg',
           reference: '23208790S',
-          condition: 'New product',
-          info: 'Paper tray for use only with DNP DS620'
+          condition: 'Nov proizvod',
+          info: 'Držač papira za DNP DS620'
         },
         {
-          name: 'DS620 Roll Holder 1 (Long/Left)',
+          name: 'DS620  Držač rolne 1 Duži/Levi',
           path: 'ds620-roll-holder-1-(long/left)',
           image: '91-thickbox_default.jpg',
           reference: '23208760S',
-          condition: 'New product',
-          info: 'DS620  Roll Holder 1 (Long/Left)'
+          condition: 'Nov proizvod',
+          info: 'DS620  Držač rolne 1 (Duži/Levi)'
         },
         {
-          name: 'DS620 Roll Holder 2 Short/Right',
+          name: 'DS620  Držač rolne  2 Kraći/Desni',
           path: 'ds620-roll-holder-2-short/right',
           image: '92-thickbox_default.jpg',
           reference: '23208770S',
-          condition: 'New product',
-          info: 'DS620  Roll Holder 2 (Short/Right)'
+          condition: 'Nov proizvod',
+          info: 'DS620  Držač rolne 2 (Kraći/Desni)'
         }
       ]
     }

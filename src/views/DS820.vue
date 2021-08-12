@@ -25,8 +25,8 @@
           
           <div class="mt-10">
             <h3 class="my-3">8-INČA FOTO ŠTAMPAČ</h3>
-            <p><b>Reference:</b> {{$t('printers.list[1].reference')}}</p>
-            <p><b>Condition:</b> {{$t('printers.list[1].condition')}}</p>
+            <p><b>{{$i18n.locale == 'srb' ? 'Šifra proizvoda' : "Product code"}}:</b> {{$t('printers.list[1].reference')}}</p>
+            <p><b>{{$i18n.locale == 'srb' ? 'Stanje' : "Condition"}}:</b> {{$t('printers.list[1].condition')}}</p>
           </div>
         </v-col>
       </v-row>
@@ -42,12 +42,12 @@
           <v-tabs-slider></v-tabs-slider>
 
           <v-tab href="#tab-1">
-            Prednosti
+            {{$i18n.locale == 'srb' ? 'Prednosti' : "Benefits"}}
             <v-icon>mdi-filter-variant</v-icon>
           </v-tab>
 
           <v-tab href="#tab-2">
-            Specifikacije
+            {{$i18n.locale == 'srb' ? 'Specifikacije' : "Specifications"}}
             <v-icon>mdi-information-variant</v-icon>
           </v-tab>
         </v-tabs>
@@ -72,6 +72,7 @@
       <!-- BROSURA -->
       <v-row class="mx-4">
         <v-col class="mt-10">
+          <h1>PROMENI LOKACIJU brosura i dodaj englesku brosuru</h1>
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
@@ -80,67 +81,29 @@
             color="red"
           >
             <v-icon left size="25" dark>mdi-download</v-icon>
-            Preuzmi PDF boršuru
+            {{ $i18n.locale == 'srb' ? 'Preuzmi PDF boršuru(SRB)' : "Download PDF brochure(SRB)" }}
+          </v-btn>
+          <v-btn 
+            class="ma-2 pa-6" 
+            outlined 
+            href="http://localhost:8080/DNP_brochure_DS620_eng.pdf"
+            download
+            color="red"
+          >
+            <v-icon left size="25" dark>mdi-download</v-icon>
+            {{ $i18n.locale == 'srb' ? 'Preuzmi PDF boršuru(ENG)' : "Download PDF brochure(ENG)" }}
           </v-btn>
         </v-col>
       </v-row>
     </div>
-
-    <!-- GALERIJA -->
-    <!-- <div class="px-3" style="background-color: rgba(0,0,0,0.1); margin-bottom: -60px;">
-      <div class="mt-15 py-10 pt-15" :class="$vuetify.breakpoint.lgAndUp ? 'wrapper' : ''">
-        <h2 class="mb-10 px-3 red--text" style="font-size: 2em">Galerija</h2>
-        <vueper-slides
-          class="mb-5"
-          ref="vueperslides1"
-          :touchable="!$vuetify.breakpoint.lgAndUp"
-          fade
-          :autoplay="false"
-          :bullets="false"
-          @slide="$refs.vueperslides2.goToSlide($event.currentSlide.index, { emit: false })"
-          :fixed-height="$vuetify.breakpoint.lgAndUp ? '800px' : '300px'"
-          >
-          <vueper-slide
-            v-for="i in 8"
-            :key="i"
-            :image="require(`@/assets/DS820/${i}.jpg`)">
-          </vueper-slide>
-        </vueper-slides>
-
-        <vueper-slides
-          class="no-shadow thumbnails"
-          ref="vueperslides2"
-          @slide="$refs.vueperslides1.goToSlide($event.currentSlide.index, { emit: false })"
-          :visible-slides="5"
-          fixed-height="105px"
-          :bullets="false"
-          :touchable="false"
-          :gap="2.5"
-          :arrows="false"
-          :breakpoints="breakpoints"
-          >
-          
-          <vueper-slide
-            v-for="i in 8"
-            :key="i"
-            :image="require(`@/assets/DS820/${i}.jpg`)"
-            @click.native="$refs.vueperslides2.goToSlide(i)">
-          </vueper-slide>
-        </vueper-slides>
-      </div>
-    </div> -->
   </div>
 </template>
 
 <script>
 import ThePrednosti from "@/components/DS820/ThePrednosti.vue"
 import TheSpecifikacije from "@/components/DS820/TheSpecifikacije.vue"
-// import { VueperSlides, VueperSlide } from 'vueperslides'
-// import 'vueperslides/dist/vueperslides.css'
 export default {
   components: {
-    // VueperSlides, 
-    // VueperSlide, 
     ThePrednosti,
     TheSpecifikacije
   },

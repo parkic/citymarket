@@ -2,12 +2,12 @@
   <div>
     <div v-if="$i18n.locale == 'srb'">
       <h4>Isplativosti</h4>
-      <p>Režim mirovanja osigurava malu potrošnju energije (&lt;0.5V), dok se režimom premotavanja osigurava da se potrošni materijali učinkovito troše. Ušteda novca, stvaranje vrednosti!</p>
+      <p>Režim mirovanja osigurava malu potrošnju energije (&lt;0.5W), dok se režimom premotavanja osigurava da se potrošni materijali učinkovito troše. Ušteda novca, stvaranje vrednosti!</p>
 
       <h4>Pouzdanost</h4>
       <p>Mnogo hiljada DS štampača pouzdano radi na terenu. DS620 ima poboljšani termalni vijek trajanja glave. Uvereni smo da ćete uživati u izuzetno izdržljivom proizvodu. Evo dokaza: DNP PIE nudi 2 godine garancije!</p>
 
-      <h4>Inovativnost </h4>
+      <h4>Inovativnost</h4>
       <p>Sa multi-formatnim izborom, novim formatima kao što su 15k15cm kvadratni otisak i novim HKL medijima, DS620 postavlja nove standarde. Korisne informacije o štampaču dostupne su direktno iz upravljačkog programa štampača.</p>
 
       <h4>Veliki izbor formata</h4>
@@ -33,7 +33,6 @@
       <h4>Speed</h4>
       <p>With a high throughput, the DS620 produces up to 400 prints per hour. The first photo is ready in less than 10 seconds; afterwards it takes approx. 8.9 seconds per picture. This makes DNP’s new flagship model one of the fastest professional photo printers.</p>
     </div>
-    
   </div>
 </template>
 

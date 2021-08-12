@@ -25,9 +25,9 @@
           
           <div class="mt-10">
             <h3 class="my-3">6-INČA FOTO ŠTAMPAČ</h3>
-            <p><b>Reference:</b> {{$t('printers.list[4].reference')}}</p>
-            <p><b>Condition:</b> {{$t('printers.list[4].condition')}}</p>
-            <p class="my-3">20% Faster Print Speed than RX1</p>
+            <p><b>{{$i18n.locale == 'srb' ? 'Šifra proizvoda' : "Product code"}}:</b> {{$t('printers.list[4].reference')}}</p>
+            <p><b>{{$i18n.locale == 'srb' ? 'Stanje' : "Condition"}}:</b> {{$t('printers.list[4].condition')}}</p>
+            <p class="my-3">{{$t('printers.list[4].conditionPlus')}}</p>
           </div>
         </v-col>
       </v-row>
@@ -43,12 +43,12 @@
           <v-tabs-slider></v-tabs-slider>
 
           <v-tab href="#tab-1">
-            Prednosti
+            {{$i18n.locale == 'srb' ? 'Prednosti' : "Benefits"}}
             <v-icon>mdi-filter-variant</v-icon>
           </v-tab>
 
           <v-tab href="#tab-2">
-            Specifikacije
+            {{$i18n.locale == 'srb' ? 'Specifikacije' : "Specifications"}}
             <v-icon>mdi-information-variant</v-icon>
           </v-tab>
         </v-tabs>
@@ -72,6 +72,7 @@
       <!-- BROSURA -->
       <v-row class="mx-4">
         <v-col class="mt-10">
+          <h1>PROMENI LOKACIJU brosura i dodaj englesku brosuru</h1>
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
@@ -80,7 +81,17 @@
             color="red"
           >
             <v-icon left size="25" dark>mdi-download</v-icon>
-            Preuzmi PDF boršuru
+            {{ $i18n.locale == 'srb' ? 'Preuzmi PDF boršuru(SRB)' : "Download PDF brochure(SRB)" }}
+          </v-btn>
+          <v-btn 
+            class="ma-2 pa-6" 
+            outlined 
+            href="http://localhost:8080/DNP_brochure_DS620_eng.pdf"
+            download
+            color="red"
+          >
+            <v-icon left size="25" dark>mdi-download</v-icon>
+            {{ $i18n.locale == 'srb' ? 'Preuzmi PDF boršuru(ENG)' : "Download PDF brochure(ENG)" }}
           </v-btn>
         </v-col>
       </v-row>
