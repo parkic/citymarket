@@ -24,7 +24,7 @@
         <v-col cols="12" md="6">
           
           <div class="mt-10">
-            <h3 class="my-3">8-INČA FOTO ŠTAMPAČ</h3>
+            <h3 class="my-3">{{$i18n.locale == 'srb' ? '8-INČA FOTO ŠTAMPAČ' : "8-INCH FOTO PRINT"}}</h3>
             <p><b>{{$i18n.locale == 'srb' ? 'Šifra proizvoda' : "Product code"}}:</b> {{$t('printers.list[1].reference')}}</p>
             <p><b>{{$i18n.locale == 'srb' ? 'Stanje' : "Condition"}}:</b> {{$t('printers.list[1].condition')}}</p>
             <p class="my-3">{{$t('printers.list[1].conditionPlus')}}</p>

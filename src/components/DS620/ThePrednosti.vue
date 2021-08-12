@@ -5,16 +5,16 @@
       <p>Režim mirovanja osigurava malu potrošnju energije (&lt;0.5W), dok se režimom premotavanja osigurava da se potrošni materijali učinkovito troše. Ušteda novca, stvaranje vrednosti!</p>
 
       <h4>Pouzdanost</h4>
-      <p>Mnogo hiljada DS štampača pouzdano radi na terenu. DS620 ima poboljšani termalni vijek trajanja glave. Uvereni smo da ćete uživati u izuzetno izdržljivom proizvodu. Evo dokaza: DNP PIE nudi 2 godine garancije!</p>
+      <p>Mnogo hiljada DS štampača pouzdano radi na terenu. Printer DS620 ima poboljšani termalni vek trajanja glave. Uvereni smo da ćete uživati u izuzetno izdržljivom proizvodu. Evo dokaza: DNP PIE nudi 2 godine garancije!</p>
 
       <h4>Inovativnost</h4>
-      <p>Sa multi-formatnim izborom, novim formatima kao što su 15k15cm kvadratni otisak i novim HKL medijima, DS620 postavlja nove standarde. Korisne informacije o štampaču dostupne su direktno iz upravljačkog programa štampača.</p>
+      <p>Sa multi-formatnim izborom, novim formatima kao što je 15x15cm i novim HQL medijima, DS620 postavlja nove standarde. Korisne informacije o štampaču dostupne su direktno iz upravljačkog uputstva štampača.</p>
 
       <h4>Veliki izbor formata</h4>
-      <p>Pružajući fleksibilnost u fotografskim formatima, DS620 nudi sve od 5k15 do 15k23cm. Nova funkcija premotavanja omogućava vam da efikasno ponudite više formata iz svih medija.</p>
+      <p>Pružajući fleksibilnost u fotografskim formatima, DS620 nudi sve od 5x15 do 15x23cm. Nova funkcija premotavanja omogućava vam da efikasno ponudite više formata iz svih medija.</p>
 
       <h4>Brzina</h4>
-      <p>Sa visokom propusnošću, DS620 proizvodi do 400 otisaka na sat. Prva fotografija je spremna za manje od 10 sekundi; nakon toga traje cca. 8,9 sekundi po slici. Ovo čini DNP novi vodeći model jednim od najbržih profesionalnih foto štampača.</p>
+      <p>Sa velikom brzinom, DS620 proizvodi do 400 slika po satu. Prva fotografija je spremna za manje od 10 sekundi; nakon toga traje prosečeno 8 do 9 sekundi po slici. Ovo čini DNP novi vodeći model jednim od najbržih profesionalnih foto štampača.</p>
     </div>
 
     <div v-else>

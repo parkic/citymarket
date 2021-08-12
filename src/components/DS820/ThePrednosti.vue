@@ -5,15 +5,15 @@
 
     <h4>Dva tipa potrošnog materijala - Pure Premium i Digital</h4>
     <p>Dostupna su dva tipa medija: Pure Premium Digital i Standard Digital. <br />
-      Sa poboljšanim nivoom sjaja i visokom gustinom ispisa, Pure Premium Digital proizvodi otiske visokog kvaliteta kako bi zadovoljili tržišne zahteve studijskih fotografa. Standard Digital je isplativiji a zadržava visok kvalitet.<br />
+      Sa poboljšanim nivoom sjaja i visokom gustinom ispisa, Pure Premium Digital proizvodi slike visokog kvaliteta kako bi zadovoljili tržišne zahteve studijskih fotografa. Standard Digital je isplativiji, a zadržava visok kvalitet.<br />
     </p>
 
     <h4>Veliki izbor formata - uključujući panoramske ispise </h4>
-    <p>Novi panoramski format (sa SDK) do 8k32 '', savršen za izlaganje fotografija pejzaža!</p>
+    <p>Novi panoramski format (sa SDK) do 8x32 '', savršen za predstavljanje fotografija pejzaža!</p>
 
     <h4>Produktivnost i profitabilnost</h4>
     <p>Nova funkcija premotavanja omogućava najefikasniju potrošnju potrošnog materijala i ograničenje jedinica za skladištenje medija. <br/>
-      U režimu mirovanja, štampač najefikasnije koristi energiju (&lt;0,5 W), zadržavajući račun za električnu energiju na kraju godine. Sve ove nove karakteristike će koristiti operateru sa povećanom profitabilnošću.
+      U režimu mirovanja, štampač najefikasnije koristi energiju (&lt;0,5 W), štedeći električnu energiju, a samim tim i novac. Sve ove nove karakteristike će koristiti operateru sa povećanom profitabilnošću.
     </p>
   </div>
   <div v-else>

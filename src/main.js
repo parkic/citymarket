@@ -127,7 +127,7 @@ const messages = {
           title: 'DNP DS-RX1HS',
           reference: '123456',
           condition: 'New product',
-          conditionPlus: '20% Faster Print Speed than RX1'
+          conditionPlus: 'This RX1HS’s improved print speeds allow you to produce 290 4x6” (10x15cm) prints per hour compared to 249 prints for the RX1 printer**. For example, a 4x6’’ photo would be printed in 15 seconds with the RX1, while it would take only 12.4 with the RX1HS*. It can even decrease by 5 seconds the printing time of a 6x8’’ photo.'
           
         },
         // QW410
@@ -560,7 +560,7 @@ const messages = {
           title: 'DNP DS820',
           reference: '212820',
           condition: 'Nov proizvod',
-          conditionPlus:"Nudeći dva tipa potrošnog materijala i zadovoljavajući zahteve proširenog izbora formata fotografija do 8k32 '' panorama (* preko SDK), ovaj vrhunski štampač povećava odličan kvalitet slike koji savršeno pristaje profesionalnoj fotografiji i fotografiji događaja. potrebe studija",
+          conditionPlus:"Nudeći dva tipa potrošnog materijala i zadovoljavajući zahteve proširenog izbora formata fotografija do 8x32'' panorama (* preko SDK), ovaj vrhunski štampač povećava odličan kvalitet slike koji savršeno pristaje profesionalnoj fotografiji i fotografiji događaja.",
           info: {
             generalFeatures: '',
             printModes: '',
@@ -588,7 +588,7 @@ const messages = {
           title: 'DNP DS-RX1HS',
           reference: '123456',
           condition: 'Nov proizvod',
-          conditionPlus: '20% Brža brzina štampe nego kod RX1'
+          conditionPlus: 'Poboljšane brzine štampanja ovog RX1HS omogućavaju Vam da napravite 290 slika 4x6” (10x15 cm) na sat u poređenju sa 249 slika na RX1 štampaču. Na primer, fotografija 4x6” bi se štampala za 15 sekundi sa RX1, dok bi za RX1HS trebalo samo 12,4s. Moguće je smanjiti za 5 sekundi vreme štampanja fotografije veličine 6x8”.'
           
         },
         // QW410
