@@ -215,7 +215,7 @@ const messages = {
         {
           name: ['DS620 13X18CM', '(5X7")'],
           path: 'ds620-13x18cm(5x7)',
-          image: 'DS_40_5x7.jpg',
+          image: 'DS6205X7.jpg',
           reference: '212627',
           size: '13x18cm  5"x 7"',
           printsPerRoll: '230',
@@ -225,7 +225,7 @@ const messages = {
         {
           name: ['DS620 15X20CM', '(6X8")'],
           path: 'ds620-15x20cm(6x8)',
-          image: 'DS40_6x8v2.png',
+          image: 'DS6206X8.jpg',
           reference: '212628',
           size: '15x20cm  6"x 8"',
           printsPerRoll: '200',
@@ -676,7 +676,7 @@ const messages = {
         {
           name: ['DS620 13X18CM', '(5X7")'],
           path: 'ds620-13x18cm(5x7)',
-          image: 'DS_40_5x7.jpg',
+          image: 'DS6205X7.jpg',
           reference: '212627',
           size: '13x18cm  5"x 7"',
           printsPerRoll: '230',
@@ -686,7 +686,7 @@ const messages = {
         {
           name: ['DS620 15X20CM', '(6X8")'],
           path: 'ds620-15x20cm(6x8)',
-          image: 'DS40_6x8v2.png',
+          image: 'DS6206X8.jpg',
           reference: '212628',
           size: '15x20cm  6"x 8"',
           printsPerRoll: '200',
@@ -889,7 +889,7 @@ const messages = {
         //   rollsPerCase: '2',
         //   totalPrints: '220'
         // }
-      ] 
+      ]
     },
 
     // Accessories
