@@ -13,6 +13,12 @@ const routes = [
     component: Home
   },
   {
+    path: '/about-DNP',
+    name: 'Dnp',
+    component: () => import(/* webpackChunkName: 'DNP' */ '../views/DNP.vue'),
+
+  },
+  {
     path: '/printers',
     name: "Printers",
     component: Printers,

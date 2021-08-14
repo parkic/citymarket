@@ -14,7 +14,8 @@
         <v-col cols="12" md="6" class="pl-15">
           <div class="mt-10">
             <h2 data-aos="fade-down" data-aos-duration="1000" class="my-3 mb-10 red--text" style="font-size: 1.7em">
-              {{accessorie.name}}
+              <div> {{accessorie.name[0]}} </div>
+              <div> {{accessorie.name[1]}} </div>
             </h2>
 
             <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">

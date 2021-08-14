@@ -9,11 +9,11 @@
     </p>
 
     <h4>Veliki izbor formata - uključujući panoramske ispise </h4>
-    <p>Novi panoramski format (sa SDK) do 8x32 '', savršen za predstavljanje fotografija pejzaža!</p>
+    <p>Novi panoramski format (sa SDK) do 8x32'', savršen za predstavljanje fotografija pejzaža!</p>
 
     <h4>Produktivnost i profitabilnost</h4>
-    <p>Nova funkcija premotavanja omogućava najefikasniju potrošnju potrošnog materijala i ograničenje jedinica za skladištenje medija. <br/>
-      U režimu mirovanja, štampač najefikasnije koristi energiju (&lt;0,5 W), štedeći električnu energiju, a samim tim i novac. Sve ove nove karakteristike će koristiti operateru sa povećanom profitabilnošću.
+    <p>Nova funkcija premotavanja omogućava najefikasniju potrošnju potrošnog materijala.<br/>
+      U režimu mirovanja, štampač ima racionalnu potrošnju energije (&lt;0,5 W).
     </p>
   </div>
   <div v-else>

@@ -13,7 +13,7 @@ Vue.use(BackToTop);
 
 const messages = {
   en: {
-    menu: ["Home", "DNP Printers", "Media", "Accessories", "About us", "Contact"],
+    menu: ["Home", "About DNP", "DNP Printers", "Media", "Accessories", "About us", "Contact"],
 
     // HOME
     home: {
@@ -31,6 +31,11 @@ const messages = {
       }
     },
 
+    // DNP
+    dnp: {
+      title: 'About DNP',
+      text: ['Dai Nippon Printing (DNP) was established in as far back as 1876, to become the first full-scale printing company in Japan.', 'Today, the DNP Group is one of the largest diversified printing/coating technology companies in the world, with approximately 40,000 employees worldwide. DNP is currently operating 58 plants in Japan and overseas, and activities include commercial printing, packaging, decorative material, electronics, business forms and information media supplies. Expanding printing technology has been a fundamental DNP policy since the 1950s.', 'Specifically in the photofinishing markets, DNP has been the pioneer of dye sublimating printing technology and is the world’s largest manufacturer of dye sublimation ribbons. In a highly specialised industry, worldwide production in large scale is making sure you are being served on the competitive edge.', 'DNP Photo Imaging Europe combines more than 20 years of experience in photo printing and kiosk deployment. A key strength is delivering the most flexible and innovative solutions to customer expectations. A full network of distribution partners in Europe and Northern Africa make sure that reliable solutions are accessible in every part of the zone.', 'DNP has the broadest selection of solutions for the photo retail market and products designed to address retailer’s specific business goals and objectives – backed by the quality and reliability our customers expect.']
+    },
     // ABOUT
     about: {
       title: "About us",
@@ -472,7 +477,7 @@ const messages = {
     }
   },
   srb: {
-    menu: ["Početna", "DNP Printeri","Media", "Pribor", "O nama", "Kontakt"],
+    menu: ["Početna", "O DNP", "DNP Printeri","Media", "Pribor", "O nama", "Kontakt"],
 
     // HOME
     home: {
@@ -490,10 +495,15 @@ const messages = {
       }
     },
 
+    dnp: {
+      title: "O DNP",
+      text: ['Dai Nippon Printing (DNP) was established in as far back as 1876, to become the first full-scale printing company in Japan.', 'Today, the DNP Group is one of the largest diversified printing/coating technology companies in the world, with approximately 40,000 employees worldwide. DNP is currently operating 58 plants in Japan and overseas, and activities include commercial printing, packaging, decorative material, electronics, business forms and information media supplies. Expanding printing technology has been a fundamental DNP policy since the 1950s.', 'Specifically in the photofinishing markets, DNP has been the pioneer of dye sublimating printing technology and is the world’s largest manufacturer of dye sublimation ribbons. In a highly specialised industry, worldwide production in large scale is making sure you are being served on the competitive edge.', 'DNP Photo Imaging Europe combines more than 20 years of experience in photo printing and kiosk deployment. A key strength is delivering the most flexible and innovative solutions to customer expectations. A full network of distribution partners in Europe and Northern Africa make sure that reliable solutions are accessible in every part of the zone.', 'DNP has the broadest selection of solutions for the photo retail market and products designed to address retailer’s specific business goals and objectives – backed by the quality and reliability our customers expect.']
+    },
+
     // ABOUT
     about: {
       title: "O nama",
-      text: "Preduzeće Fotolusio doo je osnovano 30.septembra 2013.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
+      text: "Preduzeće Fotolusio doo je osnovano 26.07.2006.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
       info: ["Privredno društvo za trgovinu i usluge", "City Market d.o.o. Kruševac", "Aleksandra Fleminga 41,", "37000 Kruševac", "Republika Srbija"],
     },
 
@@ -533,7 +543,7 @@ const messages = {
           title: 'DNP DS620',
           reference: '212620',
           condition: 'Nov proizvod',
-          conditionPlus: 'DS620 Vam omogućava da ponudite još više formata fotografija, uključujući i popularne formate. Imate priliku da odštampate dve slike 10x15cm ili jednu sliku 15x20cm. Najprodavaniji profesionalni foto štampač u Evropi.',
+          conditionPlus: 'DS620 Vam omogućava da ponudite još više formata fotografija, uključujući i popularne formate (vidi specifikaciju ispod). Ovo je ajprodavaniji profesionalni foto štampač u Evropi.',
     
           info: {
             generalFeatures: '',
@@ -561,7 +571,7 @@ const messages = {
           title: 'DNP DS820',
           reference: '212820',
           condition: 'Nov proizvod',
-          conditionPlus:"Nudeći dva tipa potrošnog materijala i zadovoljavajući zahteve proširenog izbora formata fotografija do 8x32'' panorama (* preko SDK), ovaj vrhunski štampač povećava odličan kvalitet slike koji savršeno pristaje profesionalnoj fotografiji i fotografiji događaja.",
+          conditionPlus:"Nudeći dva tipa potrošnog materijala i zadovoljavajući zahteve proširenog izbora formata fotografija do 8x32'' panorama (* preko SDK), ovaj vrhunski štampač daje odličan kvalitet fotografiji koji savršeno odgovara profesionalnoj fotografiji i fotografiji događaja.",
           info: {
             generalFeatures: '',
             printModes: '',
@@ -589,7 +599,7 @@ const messages = {
           title: 'DNP DS-RX1HS',
           reference: '123456',
           condition: 'Nov proizvod',
-          conditionPlus: 'Poboljšane brzine štampanja ovog RX1HS omogućavaju Vam da napravite 290 slika 4x6” (10x15 cm) na sat u poređenju sa 249 slika na RX1 štampaču. Na primer, fotografija 4x6” bi se štampala za 15 sekundi sa RX1, dok bi za RX1HS trebalo samo 12,4s. Moguće je smanjiti za 5 sekundi vreme štampanja fotografije veličine 6x8”.'
+          conditionPlus: 'Povećane brzine štampanja ovog RX1HS štampača omogućavaju Vam da napravite 290 slika 4x6” (10x15cm) na sat u poređenju sa 249 slika na RX1 štampaču. Na primer, fotografija 4x6” bi se štampala za 15 sekundi sa RX1, dok bi za RX1HS trebalo samo 12,4s. Moguće je smanjiti za 5 sekundi vreme štampanja fotografije veličine 6x8”(15x20cm).'
           
         },
         // QW410
@@ -627,7 +637,7 @@ const messages = {
           path: 'DS40',
           reference: '212040',
           condition: 'Nov proizvod',
-          conditionPlus: 'Poželjan foto štampač vodećih sistem integratora i profesionalaca za fotografije.',
+          conditionPlus: 'Poželjan foto štampač vodećih sistem integratora i profesionalnih fotografa.',
           title: 'DNP DS40',
           info: {
             printMethod: 'Dye Sublimation Thermal Transfer',
@@ -899,7 +909,7 @@ const messages = {
       title: "Pribor",
       list: [
         {
-          name: 'Kaseta za ribon za printer DS620',
+          name: ['Kaseta za ribon', 'za printer DS620'],
           path: 'ribbon-cassete-ds620',
           image: '89-thickbox_default.jpg',
           reference: '212623',
@@ -907,7 +917,7 @@ const messages = {
           info: 'Kaseta za ribon za printer DS620'
         },
         {
-          name: 'Držač papira za DNP DS620 10х15сm',
+          name: ['Držač papira 10х15сm', 'za printer DS620 '],
           path: 'paper-tray-dnp-ds620-10х15сm',
           image: '90-thickbox_default.jpg',
           reference: '23208790S',
@@ -915,7 +925,7 @@ const messages = {
           info: 'Držač papira za DNP DS620'
         },
         {
-          name: 'DS620  Držač rolne 1 Duži/Levi',
+          name: ['DS620 Držač rolne 1', 'Duži/Levi'],
           path: 'ds620-roll-holder-1-(long/left)',
           image: '91-thickbox_default.jpg',
           reference: '23208760S',
@@ -923,7 +933,7 @@ const messages = {
           info: 'DS620  Držač rolne 1 (Duži/Levi)'
         },
         {
-          name: 'DS620  Držač rolne  2 Kraći/Desni',
+          name: ['DS620  Držač rolne 2', 'Kraći/Desni'],
           path: 'ds620-roll-holder-2-short/right',
           image: '92-thickbox_default.jpg',
           reference: '23208770S',

@@ -6,20 +6,18 @@
 
       <h4>Poboljšana brzina štampanja</h4>
       <p>
-        Novi DS - RX1HS digitalni foto štampač povećava brzinu štampanja za čak 20%! Ova poboljšana brzina štampanja omogućava vam da štampate 290 4x6" (10x15cm) otisaka po satu.
-        Štampano sa režimom velike brzine na sjajnoj završnoj obradi. Broj odrađenih slika se može promeniti u zavisnosti od podataka o slici, sobne temperature i svih ostalih okruženja.
+        Novi DS - RX1HS digitalni foto štampač povećava brzinu štampanja za čak 20%! Ova poboljšana brzina štampanja omogućava Vam da štampate 290 fotografija 4x6"(10x15cm) po satu(štampano u režimu prioriteta brzine štampne na sjajnoj završnoj obradi). Broj odštampanih fotografija se može razlikovati u zavisnosti od rezolucije fotografije, sobne temperature i svih ostalih parametara okruženja.
       </p>
       <h4>Veliki kapacitet štampe</h4>
       <p>
-        Sa najvećim kapacitetom štampe u svojoj klasi (700 slika formata 4x6), izdržljivim dizajnom i novim većim brzinama štampanja, printer DS-RX1HS će odgovoriti svim vašim zahtevima u zavisnosti gde je potrebno odraditi slike, bilo to u radnji ili na terenu. Težak je samo 14 kg.
+        Sa najvećim kapacitetom medija u svojoj klasi (700 slika formata 4x6''), izdržljivim dizajnom i novim većim brzinama štampanja, printer DS-RX1HS će odgovoriti svim vašim zahtevima u zavisnosti od toga gde je potrebno odraditi fotografije, u radnji ili na terenu. Težak je samo 14 kg.
       </p>
 
       <!-- <h4>Upotrebljiv za foto-kabine</h4>
       <p>Idealan je za foto-kabine, foto trake u formatu 2x6 inča (5x15cm). Ponudite zabavne fotografije ili fotografije za pasoš u ovom popularnom rasporedu! DS-RX1HS štampač je veoma mali, manji od jednog metra visok (11” H x 12.6” V), i stane u uske prostore.</p> -->
 
       <h4>Ekološki</h4>
-      <p>DS-RX1HS materijali za štampanje fotografija koriste manje plastike nego ikada i dolaze u ambalaži koja se može reciklirati, dok su ribon trake napravljene od recikliranih materijala. I potrošnja energije i medijski otpad su dalje optimizovani. Кoristi 25% manje energije, u režimima najveće potrošnje, mirovanja i ostalim režimima rada. <br />
-  Moraju imati istu veličinu medija (npr. 10x15 cm medijum u oba).
+      <p>DS-RX1HS materijali za štampanje fotografija koriste manje plastike nego ikada i dolaze u ambalaži koja se može reciklirati, dok su ribon trake napravljene od recikliranih materijala. I potrošnja energije i medijski otpad su optimizovani. Кoristi 25% manje energije, u režimima najveće potrošnje, mirovanja i ostalim režimima rada.
       </p>
     </div>
 

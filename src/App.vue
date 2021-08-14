@@ -206,6 +206,8 @@ export default {
     drawer: null,
     menuOptions: [
       { name: "home", icon: "mdi-home" },
+      // { name: 'dnp', icon: "mdi-domain"},
+      { name: 'dnp', icon: "mdi-office-building"},
       { name: "printers", icon: "mdi-printer" },
       { name: "media", icon: "mdi-database" },
       { name: "accessories", icon: "mdi-camera" },
@@ -213,6 +215,7 @@ export default {
       { name: "contact", icon: "mdi-phone" },
     ],
     menuOptionsMobile: [
+      { name: 'dnp', icon: "mdi-domain"},
       { name: "printers", icon: "mdi-printer" },
       { name: "media", icon: "mdi-database" },
       { name: "accessories", icon: "mdi-camera" },

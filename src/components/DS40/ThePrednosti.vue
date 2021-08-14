@@ -2,13 +2,13 @@
   <div>
     <div v-if="$i18n.locale == 'srb'">
       <h4>Brzo</h4>
-      <p>DS40 isporučuje 10x15cm fotografije za samo 8 sekundi.</p>
+      <p>DS40 štampa 10x15cm fotografiju za samo 8 sekundi.</p>
 
       <h4>Pouzdanost</h4>
-      <p>Više hiljado štampača pouzdano radi na terenu već duži niz godina.</p>
+      <p>Više stotina ovih štampača pouzdano radi na terenu već duži niz godina.</p>
 
       <h4>Visokokvalitetna mat završna obrada </h4>
-      <p>Na istom foto papiru, DS40 proizvodi medije u sjajnoj ili mat boji u skladu sa vašim potrebama.</p>
+      <p>Na istom foto papiru, DS40 proizvodi mediju u sjajnoj ili mat završnoj obradi u skladu sa vašim potrebama.</p>
 
       <h4>Format 15x23cm (6x9 inča)</h4>
       <p>Dajući fleksibilnost fotografskim formatima, DS40 nudi sve od 10x15 do 15x23cm (4x6 do 6x9 inch).</p>
