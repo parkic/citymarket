@@ -16,6 +16,5 @@
         {{ elem }}
       </p>
     </div>
-
   </div>
 </template>
