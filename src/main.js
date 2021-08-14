@@ -46,7 +46,7 @@ const messages = {
       "City Market DOO"],
       // "City Market DOO"],
       // text: "Preduzeće Fotolusio doo je osnovano 30.septembra 2013.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
-      // info: ["Trading and service company", "City Market d.o.o. Krusevac", "Aleksandra Fleminga 41,", "37000 Krusevac", "Republic of Serbia"],
+      info: ["Trading and service company", "City Market d.o.o. Krusevac", "Aleksandra Fleminga 41,", "37000 Krusevac", "Republic of Serbia"],
     },
 
     // CONTACT
