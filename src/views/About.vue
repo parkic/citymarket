@@ -17,13 +17,5 @@
       </p>
     </div>
 
-    <v-row justify="center" class="mx-4">
-      <v-col class="text-center">
-        <p class="ma-0" v-for="(elem, idx) in $t('about.info')" :key="idx">
-          {{ elem }}
-        </p>   
-      </v-col>
-    </v-row>
-
   </div>
 </template>
