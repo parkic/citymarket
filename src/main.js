@@ -448,7 +448,7 @@ const messages = {
       title: "Accessories",
       list: [
         {
-          name: 'RIBBON CASSETTE DS620',
+          name: ['RIBBON CASSETTE', 'DS620'],
           path: 'ribbon-cassete-ds620',
           image: '89-thickbox_default.jpg',
           reference: '212623',
@@ -456,7 +456,7 @@ const messages = {
           info: 'Ink ribbon cassette for use with DS620 printers'
         },
         {
-          name: 'Paper Tray DNP DS620 10х15сm',
+          name: ['Paper Tray', 'DNP DS620 10х15сm'],
           path: 'paper-tray-dnp-ds620-10х15сm',
           image: '90-thickbox_default.jpg',
           reference: '23208790S',
@@ -464,7 +464,7 @@ const messages = {
           info: 'Paper tray for use only with DNP DS620'
         },
         {
-          name: 'DS620 Roll Holder 1 (Long/Left)',
+          name: ['DS620 Roll Holder1', '(Long/Left)'],
           path: 'ds620-roll-holder-1-(long/left)',
           image: '91-thickbox_default.jpg',
           reference: '23208760S',
@@ -472,7 +472,7 @@ const messages = {
           info: 'DS620  Roll Holder 1 (Long/Left)'
         },
         {
-          name: 'DS620 Roll Holder 2 Short/Right',
+          name: ['DS620 Roll Holder2', 'Short/Right'],
           path: 'ds620-roll-holder-2-short/right',
           image: '92-thickbox_default.jpg',
           reference: '23208770S',
