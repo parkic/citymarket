@@ -20,7 +20,6 @@
               contain
               :src="require(`@/assets/dnp/company.jpg`)"
             ></v-img>
-
             {{elem}}
           </p>
         </span>
@@ -45,7 +44,8 @@ export default {
 .slika{
   float: right;
   margin-left: 25px;
+  padding-top: 10px;
   /* margin-bottom: 20px; */
-  transform: translateY(-20px);
+  /* transform: translateY(-0px); */
 }
 </style>

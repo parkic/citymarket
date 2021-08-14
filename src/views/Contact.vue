@@ -40,7 +40,7 @@
               <div>
                 <v-icon color="red" large>mdi-clock</v-icon>
                 <p class="mb-0 mt-2">
-                  {{ $t("contact.workTime[0]") }}: 00:00 - 24:00
+                  {{ $t("contact.workTime[0]") }}: 09:00 - 17:00
                 </p>
                 <p>{{ $t("contact.workTime[1]") }}</p>
               </div>

@@ -9,8 +9,11 @@
     </div>
     
     <div :class="$vuetify.breakpoint.smAndUp ? 'wrapper px-5' : ''">
-      <p class="py-5 px-6 text-justify">
-        {{ $t("about.text") }}
+      <div class="py-5 px-6 ">
+
+      </div>
+      <p v-for="(elem, idx) in $t('about.text')" :key="idx" class="text-justify" >
+        {{ elem }}
       </p>
     </div>
 

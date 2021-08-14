@@ -113,7 +113,7 @@
 
       <v-spacer></v-spacer>
 
-      <div id="blackLinkTag" v-if="$vuetify.breakpoint.mdAndUp">
+      <div id="blackLinkTag" v-if="$vuetify.breakpoint.lgAndUp">
         <router-link 
           v-for="(item, idx) in menuOptions"
           :key="idx"
@@ -231,7 +231,7 @@ export default {
   computed:{
     currentLanguage(){
       return this.currentLang == 'Srpski' ? 'srb' : 'en'
-    }
+    },
   }
   
 };

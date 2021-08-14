@@ -39,8 +39,14 @@ const messages = {
     // ABOUT
     about: {
       title: "About us",
-      text: "Preduzeće Fotolusio doo je osnovano 30.septembra 2013.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
-      info: ["Trading and service company", "City Market d.o.o. Krusevac", "Aleksandra Fleminga 41,", "37000 Krusevac", "Republic of Serbia"],
+      text: ["Preduzeće City Market doo je osnovano 26.07.2006.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
+      "Vašu pažnju usmeravamo na deo proizvodnog programa japanske korporacije DNP, koja je lider u inovativnim tehnikama štampe fotografije.", 
+      "Radi se o štampačima koji koriste sublimacionu metodu štampe, čija je jedna od glavnih karakteristika visok stepen zaštite i višedecenijska trajnost otiska.", 
+      "Pozivamo Vas kako bi sa Vama podelili iskustva vezana za mogućnosti rada ovih uređaja.",
+      "City Market DOO"],
+      // "City Market DOO"],
+      // text: "Preduzeće Fotolusio doo je osnovano 30.septembra 2013.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
+      // info: ["Trading and service company", "City Market d.o.o. Krusevac", "Aleksandra Fleminga 41,", "37000 Krusevac", "Republic of Serbia"],
     },
 
     // CONTACT
@@ -57,7 +63,7 @@ const messages = {
         message: "Your message",
         send: "Send a message",
       },
-      workTime: ["Working hours", "Monday - Sunday"],
+      workTime: ["Working hours", "Monday - Friday"],
       phone: "Phone",
       mobile: "Mobile",
       street: "Aleksandra Fleminga 41",
@@ -503,7 +509,11 @@ const messages = {
     // ABOUT
     about: {
       title: "O nama",
-      text: "Preduzeće Fotolusio doo je osnovano 26.07.2006.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
+      text: ["Preduzeće City Market doo je osnovano 26.07.2006.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
+      "Vašu pažnju usmeravamo na deo proizvodnog programa japanske korporacije DNP, koja je lider u inovativnim tehnikama štampe fotografije.", 
+      "Radi se o štampačima koji koriste sublimacionu metodu štampe, čija je jedna od glavnih karakteristika visok stepen zaštite i višedecenijska trajnost otiska.", 
+      "Pozivamo Vas kako bi sa Vama podelili iskustva vezana za mogućnosti rada ovih uređaja.",
+      "City Market DOO"],
       info: ["Privredno društvo za trgovinu i usluge", "City Market d.o.o. Kruševac", "Aleksandra Fleminga 41,", "37000 Kruševac", "Republika Srbija"],
     },
 
@@ -521,7 +531,7 @@ const messages = {
         message: "Vaša poruka",
         send: "Pošaljite poruku",
       },
-      workTime: ["Radno vreme", "Ponedeljak - Nedelja"],
+      workTime: ["Radno vreme", "Ponedeljak - Petak"],
       phone: "Fiksni tel",
       mobile: "Telefon",
       street: "Aleksandra Fleminga 41",

@@ -13,7 +13,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/about-DNP',
+    path: '/dnp',
     name: 'Dnp',
     component: () => import(/* webpackChunkName: 'DNP' */ '../views/DNP.vue'),
 
