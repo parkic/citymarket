@@ -1,21 +1,5 @@
 <template>
   <div>
-    <!-- <v-carousel 
-      cycle 
-      interval="2000"
-      show-arrows-on-hover
-      hide-delimiter-background
-      :height="sliderHeight - 112"
-    >
-      <v-carousel-item
-        v-for="(item,i) in items"
-        :key="i"
-        :src="item.src"
-        reverse-transition="fade"
-        transition="fade"
-      ></v-carousel-item>
-    </v-carousel> -->
-
     <vueper-slides  
       :fixed-height="sliderHeight-112+'px'"
       autoplay 
@@ -41,9 +25,9 @@
                 <h1 class="text-h2 white--text text-center font-weight-bold mb-5">
                   {{ $t("home.bg.title").toUpperCase() }}
                 </h1>
-                <p class="text-center white--text my-5">
+                <!-- <p class="text-center white--text my-5">
                   {{ $t("home.bg.subtitle").toUpperCase() }}
-                </p>
+                </p> -->
                 <v-btn 
                   :to="{name: 'Contact'}"
                   color="red darken-2" 

@@ -18,7 +18,7 @@ const messages = {
     // HOME
     home: {
       bg: {
-        title: 'DNP KIOSK ŠTAMPAČI',
+        title: 'DNP PHOTO PRINTERS',
         subtitle: 'Dai Nippon Printing (DNP) osnovan je još davne 1876. godine da bi postao prva štamparska kompanija u Japanu.'
       },
       dnp: {
@@ -489,7 +489,7 @@ const messages = {
     // HOME
     home: {
       bg: {
-        title: 'DNP KIOSK ŠTAMPAČI',
+        title: 'DNP FOTO ŠTAMPAČI',
         subtitle: 'Dai Nippon Printing (DNP) osnovan je još davne 1876. godine da bi postao prva štamparska kompanija u Japanu.'
       },
       dnp: {

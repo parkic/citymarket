@@ -10,7 +10,7 @@
     </div>
 
     <div :class="$vuetify.breakpoint.smAndUp ? 'wrapper px-5 mt-10' : 'px-5 mt-10'">
-      <v-row>
+      <v-row :class="$vuetify.breakpoint.smAndUp ? '' : 'flex-column-reverse' ">
         <v-col cols="12" md="7">
           <p v-for="(elem, idx) in $t('dnp.text')" :key="idx" class="text-justify">
             {{elem}}
