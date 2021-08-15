@@ -20,9 +20,10 @@
       :fixed-height="sliderHeight-112+'px'"
       autoplay 
       fade 
-      :touchable="false"
+      :touchable="touchableValue"
       duration="2500"
       :pauseOnHover="pauseOnHoverValue"
+      :arrows="showArrowsValue"
     >
       <vueper-slide
         v-for="(slide, i) in slides"
@@ -87,6 +88,12 @@ import 'vueperslides/dist/vueperslides.css'
       sliderHeight(){
         return Math.round(window.innerHeight)
       },
+      showArrowsValue(){
+        return this.$vuetify.breakpoint.smAndUp
+      },
+      touchableValue(){
+         return !this.$vuetify.breakpoint.smAndUp
+      }
     }
   }
 </script>
