@@ -5,7 +5,7 @@
       autoplay 
       fade 
       :touchable="touchableValue"
-      duration="6000"
+      duration="5000"
       :pauseOnHover="pauseOnHoverValue"
       :arrows="showArrowsValue"
     >
