@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="home-bg">
+    <!-- <div class="home-bg">
       <div>
         <h1 class="text-h2 text-center font-weight-bold mb-5">
           {{ $t("home.bg.title").toUpperCase() }}
@@ -16,6 +16,9 @@
           {{ $t("contact.contactUs").toUpperCase() }}
         </v-btn>
       </div>
+    </div> -->
+    <div>
+      <TheHomeSlider />
     </div>
     
     <div>
@@ -28,15 +31,17 @@
 </template>
 
 <script>
+import TheHomeSlider from '@/components/Home/TheHomeSlider'
 import ThePrinters from '@/components/Home/ThePrinters.vue'
 import TheMedia from '@/components/Home/TheMedia.vue'
 import TheAccessories from '@/components/Home/TheAccessories.vue'
 
   export default {
     components: {
+      TheHomeSlider,
       ThePrinters,
       TheMedia,
-      TheAccessories
+      TheAccessories,
     },
   }
 </script>

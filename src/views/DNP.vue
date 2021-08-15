@@ -1,7 +1,7 @@
 <template>
   <div class="dnp">
     <div style="background-color: #ec1f25">
-      <div :class="$vuetify.breakpoint.smAndUp ? 'wrapper px-5' : ''">
+      <div :class="$vuetify.breakpoint.smAndUp ? 'wrapper px-5' : 'px-5'">
         <h2 class="white--text py-5 text-h4 ">
           <!-- {{ $t("dnp.title").toUpperCase() }}{{ $i18n.locale == 'srb' ? '-u' : "" }} -->
           {{ $i18n.locale == 'srb' ? 'O Dai Nippon Printing (DNP)' : 'About Dai Nippon Printing (DNP)' }}
@@ -9,21 +9,22 @@
       </div>
     </div>
 
-    <div :class="$vuetify.breakpoint.smAndUp ? 'wrapper px-5 mt-10' : 'mt-10'">
-      <div class="box">
-        <span style="">
+    <div :class="$vuetify.breakpoint.smAndUp ? 'wrapper px-5 mt-10' : 'px-5 mt-10'">
+      <v-row>
+        <v-col cols="12" md="7">
           <p v-for="(elem, idx) in $t('dnp.text')" :key="idx" class="text-justify">
-            <v-img
-              :style="{width: $vuetify.breakpoint.smAndUp ? '500px' : '100%'}"
-              v-if="idx===0"
-              class="slika"
-              contain
-              :src="require(`@/assets/dnp/company.jpg`)"
-            ></v-img>
             {{elem}}
           </p>
-        </span>
-      </div>
+        </v-col>
+        <v-col cols="12" md="5">
+          <v-img
+            :style="{width: $vuetify.breakpoint.smAndUp ? '500px' : '100%'}"
+            class="slika"
+            contain
+            :src="require(`@/assets/dnp/company.jpg`)"
+          ></v-img>
+        </v-col>
+      </v-row>
     </div>
 
   </div>
