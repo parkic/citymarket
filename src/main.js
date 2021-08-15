@@ -40,10 +40,10 @@ const messages = {
     // ABOUT
     about: {
       title: "About us",
-      text: ["Preduzeće City Market doo je osnovano 26.07.2006.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",
-      "Vašu pažnju usmeravamo na deo proizvodnog programa japanske korporacije DNP, koja je lider u inovativnim tehnikama štampe fotografije.", 
-      "Radi se o štampačima koji koriste sublimacionu metodu štampe, čija je jedna od glavnih karakteristika visok stepen zaštite i višedecenijska trajnost otiska.", 
-      "Pozivamo Vas kako bi sa Vama podelili iskustva vezana za mogućnosti rada ovih uređaja.",
+      text: ["The company City Market doo was founded on July 26, 2006. The main activity is the wholesale of photographic raw materials, equipment and accessories. The wish of the founders of this company is to share the experience gained through many years of practicing photography with their customers and service users, as well as with other photography lovers.", 
+      "We draw your attention to a part of the production program of the Japanese corporation DNP, which is a leader in innovative photo printing techniques.",
+      "These are printers that use the sublimation printing method, one of the main characteristics of which is a high degree of protection and decades-long durability of the print.", 
+      "We invite you to share with you experiences related to the possibilities of operation of these devices.",
       "City Market DOO"],
       // "City Market DOO"],
       // text: "Preduzeće Fotolusio doo je osnovano 30.septembra 2013.godine. Osnovna delatnost je veleprodaja fotografskog repromaterijala, opreme i pribora. Želja osnivača ovog preduzeća je da iskustvo stečeno dugogodišnjim bavljenjem fotografskim zanatom, podeli kako sa svojim kupcima i korisnicima usluga, tako i sa ostalim ljubiteljima fotografije.",

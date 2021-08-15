@@ -8,7 +8,7 @@
       </div>
     </div>
     
-    <div :class="$vuetify.breakpoint.smAndUp ? 'wrapper px-5' : ''">
+    <div :class="$vuetify.breakpoint.smAndUp ? 'wrapper px-5' : 'px-5'">
       <div class="py-5 px-6 ">
 
       </div>
