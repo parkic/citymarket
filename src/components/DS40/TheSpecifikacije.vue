@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <div v-if="$i18n.locale == 'srb'" class="px-10">
+      <div v-if="$i18n.locale == 'srb'" :class="$vuetify.breakpoint.lgAndUp ? 'px-10' : ''">
         <v-img src="@/assets/DS40/specif_srb.jpg"></v-img>
       </div>
       <div v-else>

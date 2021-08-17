@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="$i18n.locale == 'srb'" class="px-10">
+    <div v-if="$i18n.locale == 'srb'" :class="$vuetify.breakpoint.lgAndUp ? 'px-10' : 'py-3 px-2'">
       <v-img src="@/assets/QW410/specif_srb.jpg"></v-img>
     </div>
     <div v-else class="px-15 py-10">

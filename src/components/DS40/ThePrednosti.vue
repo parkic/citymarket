@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-8">
     <div v-if="$i18n.locale == 'srb'">
       <h4>Brzo</h4>
       <p>DS40 štampa 10x15cm fotografiju za samo 8 sekundi.</p>

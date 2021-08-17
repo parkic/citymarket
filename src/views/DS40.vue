@@ -60,7 +60,7 @@
             :value="'tab-' + i"
           >
             <v-card flat style="background-color: #fefefe">
-              <v-card-text class="black--text px-10">
+              <v-card-text class="black--text" :class="$vuetify.breakpoint.lgAndUp ? 'px-10' : 'px-1'">
                 <ThePrednosti v-if="tab == 'tab-1'" />
                 <TheSpecifikacije v-if="tab == 'tab-2'" />
               </v-card-text>
