@@ -18,10 +18,6 @@
         <h2 class="mt-0 pt-10 subtitle white--text">
           {{ $t("media.title").toUpperCase() }}
         </h2>
-        <!-- <p style="color: #f5f7f8">
-          <b>Ovde bi valjalo da ide neki tekst, zbog celokupnog vizuelnog izgleda.</b>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt tenetur necessitatibus molestias laboriosam ipsum, aut vero similique facilis asperiores, impedit magni, ut nesciunt architecto et laborum magnam illo atque adipisci!
-        </p> -->
         <carousel 
           :perPage="slidesPerPage" 
           navigationEnabled
@@ -37,7 +33,7 @@
             style="width: 300px;"
             class="py-5"
           >
-            <v-card class="mx-5" color="rgba(226,229,231)" min-height="400">
+            <v-card class="mx-6" color="rgba(226,229,231)" min-height="400">
               <v-img
                 style="background-color: white"
                 contain
@@ -46,7 +42,7 @@
               ></v-img>
 
               <!-- red--text -->
-              <v-card-title class="d-flex justify-center  pt-5 pb-8" style="height: 120px">
+              <v-card-title class="d-flex justify-center pt-5 pb-8" style="height: 120px">
                 <span style="color: #EC1F25" class="font-weight-black">{{media.name[0].split(' ')[0] + ' '}} &nbsp;</span>
                 <span>{{media.name[0].split(' ').slice(1)[0]}} &nbsp;</span>
                 <span>{{media.name[1]}}</span>
