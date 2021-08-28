@@ -10,33 +10,22 @@
       :arrows="showArrowsValue"
     >
       <vueper-slide
-        v-for="(slide, i) in slides"
+        v-for="(slide, i) in 2"
         :key="i"
-        :image="slide.image"
+        image="https://picsum.photos/id/11/100/60"
         :title="slide.title"
         :content="slide.content"
       >
       
-        <template #content v-if="i === 0">
+        <template #content>
           <!-- :style="'background-color: ' + ['#ff5252', '#42b983'][i % 2]" -->
           <div class="vueperslide__content-wrapper">
-            <v-overlay absolute >
-              <div class="vueperslide__title">
-                <h1 class="text-h2 white--text text-center font-weight-bold mb-5">
-                  {{ $t("home.bg.title").toUpperCase() }}
-                </h1>
-                <!-- <p class="text-center white--text my-5">
-                  {{ $t("home.bg.subtitle").toUpperCase() }}
-                </p> -->
-                <v-btn 
-                  :to="{name: 'Contact'}"
-                  color="red darken-2" 
-                  class="pa-6 white--text"
-                >
-                  {{ $t("contact.contactUs").toUpperCase() }}
-                </v-btn>
-              </div>  
-            </v-overlay>
+            <div 
+              class="slider-template-background" 
+              style="height: 100%; width: 100%" 
+              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$t($i18n.locale)}.jpg`) + ')' }"
+            >
+            </div>
           </div>
         </template>
       </vueper-slide>
@@ -55,17 +44,6 @@ import 'vueperslides/dist/vueperslides.css'
     data () {
       return {
         pauseOnHoverValue: true,
-        slides: [
-          {
-            image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
-          },
-          {
-            image: 'https://www.shaadidukaan.com/vogue/wp-content/uploads/2019/08/hug-kiss-images.jpg',
-          },
-          {
-            image: 'https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg',
-          },
-        ],
       }
     },
     computed: {
@@ -82,8 +60,31 @@ import 'vueperslides/dist/vueperslides.css'
   }
 </script>
 
-<style scoped>
+<style>
 .v-window__container {
  height: 0;
+}
+
+.vueperslides__arrow {color: red}
+
+.vueperslides__bullet .default {
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+  transition: 0.3s;
+  width: 16px;
+  height: 16px;
+}
+
+.vueperslides__bullet--active .default {
+  border: none;
+  background-color: red;
+}
+
+.slider-template-background{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 100%; width: 100%
 }
 </style>
