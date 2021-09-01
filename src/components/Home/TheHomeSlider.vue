@@ -1,9 +1,10 @@
 <template>
   <div>
     <vueper-slides  
-      :fixed-height="sliderHeight-112+'px'"
+      :fixed-height="$vuetify.breakpoint.mdAndUp ? sliderHeight-112+'px' : sliderHeight-182+'px'"
       autoplay 
       fade 
+      :bullets-outside="$vuetify.breakpoint.mdAndUp ? false : true"
       :touchable="touchableValue"
       duration="6000"
       :pauseOnHover="pauseOnHoverValue"
@@ -12,7 +13,7 @@
       <vueper-slide
         v-for="(slide, i) in 2"
         :key="i"
-        image="https://picsum.photos/id/11/100/60"
+        :image="require(`@/assets/about/main.jpg`)"
         :title="slide.title"
         :content="slide.content"
       >
@@ -21,11 +22,20 @@
           <!-- :style="'background-color: ' + ['#ff5252', '#42b983'][i % 2]" -->
           <div class="vueperslide__content-wrapper">
             <div 
+              v-if="$vuetify.breakpoint.mdAndUp"
               class="slider-template-background" 
               style="height: 100%; width: 100%" 
               :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$t($i18n.locale)}.jpg`) + ')' }"
             >
             </div>
+            <div 
+              v-else
+              class="slider-template-background" 
+              style="height: 100%; width: 100%; padding-bottom: 30px" 
+              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$t($i18n.locale)}_mob.jpg`) + ')' }"
+            >
+            </div>
+            
           </div>
         </template>
       </vueper-slide>

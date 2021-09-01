@@ -21,7 +21,7 @@
             :style="{width: $vuetify.breakpoint.smAndUp ? '500px' : '100%'}"
             class="slika"
             contain
-            :src="require(`@/assets/dnp/company.jpg`)"
+            :src="require(`@/assets/about/main.jpg`)"
           ></v-img>
         </v-col>
       </v-row>
