@@ -1,10 +1,10 @@
 <template>
   <div>
+      <!-- :bullets-outside="$vuetify.breakpoint.mdAndUp ? false : true" -->
     <vueper-slides  
-      :fixed-height="$vuetify.breakpoint.mdAndUp ? sliderHeight-112+'px' : sliderHeight-182+'px'"
+      :fixed-height="$vuetify.breakpoint.mdAndUp ? sliderHeight-112+'px' : sliderHeight-112+'px'"
       autoplay 
       fade 
-      :bullets-outside="$vuetify.breakpoint.mdAndUp ? false : true"
       :touchable="touchableValue"
       duration="6000"
       :pauseOnHover="pauseOnHoverValue"
