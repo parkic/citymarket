@@ -1,6 +1,7 @@
 <template>
   <div>
       <!-- :bullets-outside="$vuetify.breakpoint.mdAndUp ? false : true" -->
+      <!-- :arrows="showArrowsValue" -->
     <vueper-slides  
       :fixed-height="$vuetify.breakpoint.mdAndUp ? sliderHeight-112+'px' : sliderHeight-112+'px'"
       autoplay 
@@ -9,7 +10,6 @@
       :touchable="touchableValue"
       duration="6000"
       :pauseOnHover="pauseOnHoverValue"
-      :arrows="showArrowsValue"
     >
       <vueper-slide
         v-for="(slide, i) in 2"
@@ -20,7 +20,6 @@
       >
       
         <template #content>
-          <!-- :style="'background-color: ' + ['#ff5252', '#42b983'][i % 2]" -->
           <div class="vueperslide__content-wrapper">
             <div 
               v-if="$vuetify.breakpoint.mdAndUp"
