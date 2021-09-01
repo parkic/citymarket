@@ -25,14 +25,14 @@
               v-if="$vuetify.breakpoint.mdAndUp"
               class="slider-template-background" 
               style="height: 100%; width: 100%" 
-              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$t($i18n.locale)}.jpg`) + ')' }"
+              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$i18n.locale}.jpg`) + ')' }"
             >
             </div>
             <div 
               v-else
               class="slider-template-background" 
               style="height: 100%; width: 100%; padding-bottom: 30px" 
-              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$t($i18n.locale)}_mob.jpg`) + ')' }"
+              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$i18n.locale}_mob.jpg`) + ')' }"
             >
             </div>
             
@@ -49,25 +49,25 @@
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
 
-  export default {
-    components: { VueperSlides, VueperSlide },
-    data () {
-      return {
-        pauseOnHoverValue: true,
-      }
-    },
-    computed: {
-      sliderHeight(){
-        return Math.round(window.innerHeight)
-      },
-      showArrowsValue(){
-        return this.$vuetify.breakpoint.smAndUp
-      },
-      touchableValue(){
-         return !this.$vuetify.breakpoint.smAndUp
-      }
+export default {
+  components: { VueperSlides, VueperSlide },
+  data () {
+    return {
+      pauseOnHoverValue: true,
     }
+  },
+  computed: {
+    sliderHeight(){
+      return Math.round(window.innerHeight)
+    },
+    showArrowsValue(){
+      return this.$vuetify.breakpoint.smAndUp
+    },
+    touchableValue(){
+        return !this.$vuetify.breakpoint.smAndUp
+    },
   }
+}
 </script>
 
 <style>
