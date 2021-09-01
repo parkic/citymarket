@@ -5,6 +5,7 @@
       :fixed-height="$vuetify.breakpoint.mdAndUp ? sliderHeight-112+'px' : sliderHeight-112+'px'"
       autoplay 
       fade 
+      :bullets="false"
       :touchable="touchableValue"
       duration="6000"
       :pauseOnHover="pauseOnHoverValue"
