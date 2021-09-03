@@ -27,6 +27,7 @@
               style="height: 100%; width: 100%" 
               :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$i18n.locale}.jpg`) + ')' }"
             >
+              <h1 style="color: transparent">City Market DNP printer DS620 DS820</h1>
             </div>
             <div 
               v-else
@@ -34,6 +35,7 @@
               style="height: 100%; width: 100%; padding-bottom: 30px" 
               :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$i18n.locale}_mob.jpg`) + ')' }"
             >
+              <h1 style="color: transparent">City Market DNP printer DS620 DS820</h1>
             </div>
             
           </div>
