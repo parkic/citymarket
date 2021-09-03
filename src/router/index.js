@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Contact from '../views/Contact.vue'
 import Printers from '../views/Printers.vue'
+import page404 from '../views/page404.vue'
 
 Vue.use(VueRouter)
 
@@ -86,6 +87,11 @@ const routes = [
     path: '/contact',
     name: "Contact",
     component: Contact
+  },
+  {
+    path: '*',
+    name: '404',
+    component: page404
   }
 ]
 

@@ -172,7 +172,7 @@
       </v-col>
 
       <v-col class="text-center" cols="12">
-        Made with <v-icon small color="error" class="pb-1">mdi-heart</v-icon> by
+        Made with <v-icon small color="orange" class="pb-1">mdi-glass-mug-variant</v-icon> by
         <span style="color: #2196f3">crystalnoon</span> ©
         <!-- <br> -->
         {{ new Date().getFullYear() }}

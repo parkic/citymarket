@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div  :class="$vuetify.breakpoint.smAndUp ? 'wrapper' : ''">
+    <div :class="$vuetify.breakpoint.smAndUp ? 'wrapper' : ''">
       <h2 class="my-3 red--text text-center" style="font-size: 3em">{{$t('printers.list[0].title')}}</h2>
       <v-row justify="center" class="my-5 mx-3">
         <v-col cols="12" md="6">
