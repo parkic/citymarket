@@ -465,7 +465,7 @@ const messages = {
           info: 'Paper tray for use only with DNP DS620'
         },
         {
-          name: ['DS620 Roll Holder 1', '(Long/Left)'],
+          name: ['DS620 Roll Holder 1', 'Long/Left'],
           path: 'ds620-roll-holder-1-(long/left)',
           image: '91-thickbox_default.jpg',
           reference: '23208760S',

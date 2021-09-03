@@ -29,8 +29,8 @@
           ></v-img>
 
           <v-card-title class="d-flex justify-center pt-5 pb-8" style="height: 120px">
-            <div> {{item.name[0]}} </div>
-              <div> {{item.name[1]}} </div>
+            <div> {{item.name[0]}} &nbsp; </div>
+            <div> {{item.name[1]}} </div>
           </v-card-title>
 
           <v-card-actions class="pb-8">

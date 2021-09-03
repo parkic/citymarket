@@ -172,8 +172,8 @@
       </v-col>
 
       <v-col class="text-center" cols="12">
-        Made with <v-icon small color="orange" class="pb-1">mdi-glass-mug-variant</v-icon> by
-        <span style="color: #2196f3">crystalnoon</span> ©
+        Made by
+        <a href="http://crystalnoon.com/" style="color: #2196f3">crystalnoon</a> ©
         <!-- <br> -->
         {{ new Date().getFullYear() }}
       </v-col>
