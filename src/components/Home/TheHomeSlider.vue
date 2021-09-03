@@ -12,7 +12,7 @@
       :pauseOnHover="pauseOnHoverValue"
     >
       <vueper-slide
-        v-for="(slide, i) in 2"
+        v-for="(slide, i) in 3"
         :key="i"
         :image="require(`@/assets/about/main.jpg`)"
         :title="slide.title"
