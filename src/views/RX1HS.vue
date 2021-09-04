@@ -75,8 +75,8 @@
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
-            href="http://localhost:8080/DNP_brochure_DS-RX1HS_srb.pdf"
-            download
+            href="/brosure/DNP_brochure_DS-RX1HS_srb.pdf"
+            download="DNP_brochure_RX1HS_srb"
             color="red"
           >
             <v-icon left size="25" dark>mdi-download</v-icon>
@@ -85,8 +85,8 @@
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
-            href="http://localhost:8080/DNP_brochure_DS-RX1HS_eng.pdf"
-            download
+            href="/brosure/DNP_brochure_DS-RX1HS_eng.pdf"
+            download="DNP_brochure_RX1HS_eng"
             color="red"
           >
             <v-icon left size="25" dark>mdi-download</v-icon>

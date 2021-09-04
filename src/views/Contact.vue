@@ -125,6 +125,10 @@
                   :rules="[rules.required]"
                 ></v-textarea>
               </v-col>
+              <v-col offset="1" cols="10" style="text-align: center" class="pt-0">
+                <span class="error--text"><b>{{ errMsg }}</b></span>
+                <span class="green--text"><b>{{ validMsg }}</b></span>
+              </v-col>
               <v-col offset="1" cols="10" offset-sm="3" sm="6" class="py-0">
                 <v-btn @click="sendMessage" block dark large color="#ec1f25">{{ $t("contact.writeUsForm.send") }}</v-btn>
               </v-col>
@@ -137,6 +141,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   data () {
     return {
@@ -154,20 +159,41 @@ export default {
           return pattern.test(value) || 'Invalid e-mail.'
         },
       },
+      validMsg: '',
+      errMsg: ''
     }
   },
   methods: {
-    sendMessage(){
-      let message = {
-        sender: this.name,
-        email: this.email,
-        title: this.message.title,
-        text: this.message.text,
+    async sendMessage(){
+      if(this.name && this.email && this.message.title && this.message.text){
+        let message = {
+          name: this.name,
+          email: this.email,
+          title: this.message.title,
+          message: this.message.text,
+        }
+  
+        let res = await axios.post('https://citymarket.rs/mail.php', message)
+
+        if(res.data.res == 'ok'){
+          this.validMsg = this.$i18n.locale == 'srb' ? 'Poruka poslata' : 'Message has been sent'
+          this.errMsg =  ''
+          this.$refs.contactForm.reset();
+          
+          setTimeout(()=>{
+            this.validMsg = ''
+          }, 5000)
+
+        }
+        else{
+          this.validMsg = ''
+          this.errMsg = this.$i18n.locale == 'srb' ? 'Unesite podatke' : 'Invalid parameters' 
+        }  
       }
-
-      console.log(message);
-
-      this.$refs.contactForm.reset();
+      else{
+        this.validMsg = ''
+        this.errMsg = this.$i18n.locale == 'srb' ? 'Unesite podatke' : 'Invalid parameters' 
+      }
     }
   }
 }

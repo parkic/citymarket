@@ -29,7 +29,7 @@
           ></v-img>
 
           <v-card-title class="d-flex justify-center pt-5 pb-8" style="height: 120px">
-            <div> {{item.name[0]}} &nbsp; </div>
+            <div style="width: 100%; text-align: center;"> {{item.name[0]}} </div>
             <div> {{item.name[1]}} </div>
           </v-card-title>
 

@@ -75,8 +75,8 @@
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
-            href="http://localhost:8080/QW410_brochure_230320_srb.pdf"
-            download
+            href="/brosure/QW410_brochure_230320_srb.pdf"
+            download="DNP_brochure_QW410_srb"
             color="red"
           >
             <v-icon left size="25" dark>mdi-download</v-icon>
@@ -85,8 +85,8 @@
           <v-btn 
             class="ma-2 pa-6" 
             outlined 
-            href="http://localhost:8080/QW410_brochure_230320_eng.pdf"
-            download
+            href="/brosure/QW410_brochure_230320_eng.pdf"
+            download="DNP_brochure_QW410_eng"
             color="red"
           >
             <v-icon left size="25" dark>mdi-download</v-icon>
