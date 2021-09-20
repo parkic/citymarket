@@ -451,7 +451,7 @@ const messages = {
         {
           name: ['RIBBON CASSETTE', 'DS620'],
           path: 'ribbon-cassete-ds620',
-          image: '89-thickbox_default.jpg',
+          image: ['89-thickbox_default.jpg'],
           reference: '212623',
           condition: 'New product',
           info: 'Ink ribbon cassette for use with DS620 printers'
@@ -459,7 +459,7 @@ const messages = {
         {
           name: ['Paper Tray', 'DNP DS620 10х15сm'],
           path: 'paper-tray-dnp-ds620-10х15сm',
-          image: '90-thickbox_default.jpg',
+          image: ['90-thickbox_default.jpg'],
           reference: '23208790S',
           condition: 'New product',
           info: 'Paper tray for use only with DNP DS620'
@@ -467,7 +467,7 @@ const messages = {
         {
           name: ['DS620 Roll Holder 1', 'Long/Left'],
           path: 'ds620-roll-holder-1-(long/left)',
-          image: '91-thickbox_default.jpg',
+          image: ['91-thickbox_default.jpg'],
           reference: '23208760S',
           condition: 'New product',
           info: 'DS620  Roll Holder 1 (Long/Left)'
@@ -475,10 +475,18 @@ const messages = {
         {
           name: ['DS620 Roll Holder 2', 'Short/Right'],
           path: 'ds620-roll-holder-2-short/right',
-          image: '92-thickbox_default.jpg',
+          image: ['92-thickbox_default.jpg'],
           reference: '23208770S',
           condition: 'New product',
           info: 'DS620  Roll Holder 2 (Short/Right)'
+        },
+        {
+          name: ['Protect bag', ''],
+          path: 'protect-bag',
+          image: ['TORBA1.jpg', 'TORBA2.jpg', 'TORBA3.jpg', 'TORBA4.jpg', 'TORBA5.jpg'],
+          reference: 'xxxxxxx',
+          condition: 'New product',
+          info: 'Protect bag'
         }
       ]
     }
@@ -554,7 +562,7 @@ const messages = {
           title: 'DNP DS620',
           reference: '212620',
           condition: 'Nov proizvod',
-          conditionPlus: 'DS620 Vam omogućava da ponudite još više formata fotografija, uključujući i popularne formate (vidi specifikaciju ispod). Ovo je ajprodavaniji profesionalni foto štampač u Evropi.',
+          conditionPlus: 'DS620 Vam omogućava da ponudite još više formata fotografija, uključujući i popularne formate (vidi specifikaciju ispod). Ovo je najprodavaniji profesionalni foto štampač u Evropi.',
     
           info: {
             generalFeatures: '',
@@ -922,7 +930,7 @@ const messages = {
         {
           name: ['Kaseta za ribon', 'za printer DS620'],
           path: 'ribbon-cassete-ds620',
-          image: '89-thickbox_default.jpg',
+          image: ['89-thickbox_default.jpg'],
           reference: '212623',
           condition: 'Nov proizvod',
           info: 'Kaseta za ribon za printer DS620'
@@ -930,7 +938,7 @@ const messages = {
         {
           name: ['Držač papira 10х15сm', 'za printer DS620 '],
           path: 'paper-tray-dnp-ds620-10х15сm',
-          image: '90-thickbox_default.jpg',
+          image: ['90-thickbox_default.jpg'],
           reference: '23208790S',
           condition: 'Nov proizvod',
           info: 'Držač papira za DNP DS620'
@@ -938,7 +946,7 @@ const messages = {
         {
           name: ['DS620 Držač rolne 1', 'Duži/Levi'],
           path: 'ds620-roll-holder-1-(long/left)',
-          image: '91-thickbox_default.jpg',
+          image: ['91-thickbox_default.jpg'],
           reference: '23208760S',
           condition: 'Nov proizvod',
           info: 'DS620  Držač rolne 1 (Duži/Levi)'
@@ -946,10 +954,18 @@ const messages = {
         {
           name: ['DS620  Držač rolne 2', 'Kraći/Desni'],
           path: 'ds620-roll-holder-2-short/right',
-          image: '92-thickbox_default.jpg',
+          image: ['92-thickbox_default.jpg'],
           reference: '23208770S',
           condition: 'Nov proizvod',
           info: 'DS620  Držač rolne 2 (Kraći/Desni)'
+        },
+        {
+          name: ['Zaštitna torba', ''],
+          path: 'protect-bag',
+          image: ['TORBA1.jpg', 'TORBA2.jpg', 'TORBA3.jpg', 'TORBA4.jpg', 'TORBA5.jpg'],
+          reference: 'xxxxxxx',
+          condition: 'Nov proizvod',
+          info: 'Zaštitna torba za nošenje'
         }
       ]
     }

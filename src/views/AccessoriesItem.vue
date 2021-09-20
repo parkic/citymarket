@@ -3,12 +3,30 @@
     <div  :class="$vuetify.breakpoint.smAndUp ? 'wrapper' : ''">
       <v-row justify="center" class="my-5 mx-3">
         <v-col cols="12" md="6">
+          <v-carousel
+            v-if="accessorie.image.length > 1"
+            height='285px'
+          >
+            <v-carousel-item
+              v-for="(image, idx) in accessorie.image"
+              :key="idx"
+              reverse-transition="fade-transition"
+              transition="fade-transition"
+            >
+              <v-img
+                contain
+                :src="require(`@/assets/Accessories/${image}`)"
+              ></v-img>
+            </v-carousel-item>
+          </v-carousel>
           <v-img
+            v-if="accessorie.image.length === 1"
             data-aos="zoom-in-right" data-aos-duration="2000"
             contain
             height="400"
-            :src="require(`@/assets/Accessories/${accessorie.image}`)"
+            :src="require(`@/assets/Accessories/${accessorie.image[0]}`)"
           ></v-img>
+          
         </v-col>
 
         <v-col cols="12" md="6" class="pl-15">
@@ -18,9 +36,10 @@
               <div> {{accessorie.name[1]}} </div>
             </h2>
 
-            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+            <!-- temp -->
+            <!-- <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
               <b>{{ $i18n.locale == 'srb' ? 'Šifra proizvoda' : "Product code" }}: </b> {{accessorie.reference}}
-            </p>
+            </p> -->
             <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
               <b>{{ $i18n.locale == 'srb' ? 'Stanje' : "Condition" }}:</b> {{accessorie.condition}}
             </p>

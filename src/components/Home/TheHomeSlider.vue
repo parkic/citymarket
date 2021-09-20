@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <div :style="{width: $vuetify.breakpoint.smAndUp ? '80%' : '100%', margin: $vuetify.breakpoint.smAndUp ? '0 auto' : ''}">
       <!-- :bullets-outside="$vuetify.breakpoint.mdAndUp ? false : true" -->
       <!-- :arrows="showArrowsValue" -->
     <vueper-slides  
-      :fixed-height="$vuetify.breakpoint.mdAndUp ? sliderHeight-112+'px' : sliderHeight-112+'px'"
+      :fixed-height="$vuetify.breakpoint.mdAndUp ? sliderHeight-132+'px' : sliderHeight-112+'px'"
+      :arrowsOutside="$vuetify.breakpoint.mdAndUp"
       autoplay 
       fade 
       :bullets="false"

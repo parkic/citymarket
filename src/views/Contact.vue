@@ -10,28 +10,14 @@
 
     <v-row class="mx-5">
       <!-- Contact Information -->
-      <v-col cols="12" md="6">
+      <v-col cols="12" md="6" order="1">
         <v-col cols="12"  class="py-0">
           <h3 class="subtitle text-center mb-7">
             {{ $t("contact.contactInfo") }}
           </h3>
         </v-col>
 
-        <v-row class="mb-5">
-          <v-col cols="12" class="d-flex justify-center">
-            <v-card
-              flat
-              class="text-center d-flex flex-column align-center justify-center"
-            >
-              <div>
-                <v-icon color="red" large>mdi-map-marker</v-icon>
-                <p class="mb-0 mt-2">{{ $t("contact.street") }},</p>
-                <p class="mb-0">{{ $t("contact.city") }},</p>
-                <p>{{ $t("contact.country") }}</p>
-              </div>
-            </v-card>
-          </v-col>
-
+        <v-row class="mb-5 mt-5">
           <v-col cols="12" class="d-flex justify-center">
             <v-card
               flat
@@ -72,10 +58,29 @@
                 </a>
               </p>
           </v-col>
+
+          <v-col cols="12" class="d-flex justify-center">
+            <v-card
+              flat
+              class="text-center d-flex flex-column align-center justify-center"
+            >
+              <div>
+                <v-icon color="red" large>mdi-map-marker</v-icon>
+                <p class="mb-0 mt-2">{{ $t("contact.street") }},</p>
+                <p class="mb-0">{{ $t("contact.city") }},</p>
+                <p>{{ $t("contact.country") }}</p>
+              </div>
+            </v-card>
+          </v-col>
+
         </v-row>
       </v-col>
 
-      <v-col cols="12" offset-sm="1" sm="10" offset-md="0" md="6" lg="5">
+      <v-col cols="12" md="6" class="px-0 d-flex justify-center" :order="$vuetify.breakpoint.smAndUp ? 3 : 2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.5605106402695!2d21.34314401572106!3d43.57404006556352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475687ce915bdbcf%3A0xd64440fc96bdfd1e!2sCity%20Market%20d.o.o.%20Kru%C5%A1evac!5e0!3m2!1sen!2srs!4v1632178123236!5m2!1sen!2srs" :style="{width: $vuetify.breakpoint.smAndUp ? '600px' : '100%'}" height="400" style="border: 2px solid #ccc; transform: translateY(-50px)" allowfullscreen="" loading="lazy"></iframe>
+      </v-col>
+
+      <v-col cols="12" offset-sm="1" sm="10" offset-md="0" md="6" lg="5" :order="$vuetify.breakpoint.smAndUp ? 2 : 3">
         <!-- Write us -->
         <v-row>
           <v-col cols="12">
