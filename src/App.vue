@@ -171,12 +171,7 @@
         </v-row>
       </v-col>
 
-      <v-col class="text-center" cols="12">
-        Made by
-        <a href="http://crystalnoon.com/" style="color: #2196f3">crystalnoon</a> ©
-        <!-- <br> -->
-        {{ new Date().getFullYear() }}
-      </v-col>
+      <!--  -->
     </v-footer>
   </v-app>
 </template>

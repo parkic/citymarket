@@ -13,7 +13,7 @@
       :pauseOnHover="pauseOnHoverValue"
     >
       <vueper-slide
-        v-for="(slide, i) in 3"
+        v-for="(slide, i) in 1"
         :key="i"
         :image="require(`@/assets/about/main.jpg`)"
         :title="slide.title"
@@ -26,7 +26,7 @@
               v-if="$vuetify.breakpoint.mdAndUp"
               class="slider-template-background" 
               style="height: 100%; width: 100%" 
-              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$i18n.locale}.jpg`) + ')' }"
+              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_3_${$i18n.locale}.jpg`) + ')' }"
             >
               <h1 style="color: transparent">City Market DNP printer DS620 DS820</h1>
             </div>
@@ -34,7 +34,7 @@
               v-else
               class="slider-template-background" 
               style="height: 100%; width: 100%; padding-bottom: 30px" 
-              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_${slide}_${$i18n.locale}_mob.jpg`) + ')' }"
+              :style="{ backgroundImage: 'url(' + require(`@/assets/home/slider_3_${$i18n.locale}_mob.jpg`) + ')' }"
             >
               <h1 style="color: transparent">City Market DNP printer DS620 DS820</h1>
             </div>
